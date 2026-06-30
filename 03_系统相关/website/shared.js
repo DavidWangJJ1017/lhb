@@ -50,7 +50,7 @@ const renderSourceText = (activity) => (
 );
 const renderLazyImage = (className, activity) => (
   activity?.image
-    ? `<img class="${className}" src="${imagePlaceholder}" data-src="${activity.image}" alt="${activity.imageAlt || ""}" loading="lazy" decoding="async">`
+    ? `<img class="${className}" src="${imagePlaceholder}" data-src="${activity.image}" alt="${activity.imageAlt || ""}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
     : ""
 );
 
@@ -148,6 +148,10 @@ function hydrateImages(root = document) {
     img.src = img.dataset.src;
     img.removeAttribute("data-src");
   };
+  nodes.forEach((img) => {
+    img.referrerPolicy = "no-referrer";
+    if (img.getBoundingClientRect().top < window.innerHeight + 600) load(img);
+  });
   if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -157,10 +161,10 @@ function hydrateImages(root = document) {
         }
       });
     }, { rootMargin: "200px" });
-    nodes.forEach((img) => observer.observe(img));
+    root.querySelectorAll("img[data-src]").forEach((img) => observer.observe(img));
     return;
   }
-  nodes.forEach(load);
+  root.querySelectorAll("img[data-src]").forEach(load);
 }
 
 function statusClass(status) {

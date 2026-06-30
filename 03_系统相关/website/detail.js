@@ -252,7 +252,7 @@ function renderDetailPage(item) {
             <div class="detail-gallery">
               ${gallery.map((src, index) => `
                 <figure>
-                  <img src="${imagePlaceholder}" data-src="${src}" alt="${item.title} 图文资料 ${index + 1}" loading="lazy" decoding="async">
+                  <img src="${imagePlaceholder}" data-src="${src}" alt="${item.title} 图文资料 ${index + 1}" loading="lazy" decoding="async" referrerpolicy="no-referrer">
                   <figcaption>${renderImageCaption(item, index)}</figcaption>
                 </figure>
               `).join("")}
