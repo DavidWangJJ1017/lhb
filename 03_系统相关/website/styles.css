@@ -273,6 +273,27 @@ button {
   min-width: 0;
 }
 
+.filter-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
+.filter-result-count {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: #ecfdf5;
+  color: #047857;
+  border: 1px solid #bbf7d0;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 .active-filter {
   display: inline-flex;
   align-items: center;

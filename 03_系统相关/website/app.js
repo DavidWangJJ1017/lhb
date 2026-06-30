@@ -194,6 +194,7 @@ function renderMetrics(data) {
   renderPieChart("pendingIndustryChart", distributionFrom(pendingActivities, (item) => item.industries));
   renderPieChart("pendingTypeChart", distributionFrom(pendingActivities, (item) => item.type));
   byId("resultSummary").textContent = `当前筛选 ${data.length} 条`;
+  byId("filterResultCount").textContent = `${data.length} 条结果`;
 }
 
 const rankScore = { S: 34, A: 24, B: 14 };
