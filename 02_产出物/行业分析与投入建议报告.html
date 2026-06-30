@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>行业趋势分析与投入建议报告 · 可计算开店 v2</title>
+<style>
+  :root {
+    --bg: #f8f9fb;
+    --card-bg: #ffffff;
+    --text: #1a1a2e;
+    --text-secondary: #5a5f72;
+    --accent: #2563eb;
+    --green: #10b981;
+    --amber: #f59e0b;
+    --red: #ef4444;
+    --border: #e5e7eb;
+    --tag-a: #dbeafe; --tag-a-text: #1e40af;
+    --tag-b: #fef3c7; --tag-b-text: #92400e;
+    --tag-c: #f3f4f6; --tag-c-text: #6b7280;
+    --tag-d: #fee2e2; --tag-d-text: #991b1b;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; background: var(--bg); color: var(--text); line-height:1.6; }
+  .container { max-width:1200px; margin:0 auto; padding:32px 24px; }
+  header { text-align:center; padding:40px 0 24px; border-bottom:1px solid var(--border); margin-bottom:32px; }
+  header h1 { font-size:28px; margin-bottom:8px; color:var(--accent); }
+  header .subtitle { color:var(--text-secondary); font-size:15px; margin-bottom:4px; }
+  header .version-badge { display:inline-block; background:#fef3c7; color:#92400e; font-size:11px; padding:2px 8px; border-radius:4px; font-weight:700; margin-bottom:8px; }
+  .summary-cards { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:32px; }
+  .summary-card { background:var(--card-bg); border-radius:12px; padding:20px; border:1px solid var(--border); }
+  .summary-card .label { font-size:13px; color:var(--text-secondary); margin-bottom:4px; }
+  .summary-card .value { font-size:28px; font-weight:700; }
+  .summary-card.a .value { color:#1e40af; }
+  .summary-card.b .value { color:#92400e; }
+  .summary-card.c .value { color:#6b7280; }
+  .summary-card.d .value { color:#991b1b; }
+  section { margin-bottom:40px; }
+  section h2 { font-size:22px; margin-bottom:16px; padding-bottom:8px; border-bottom:2px solid var(--accent); }
+  section h3 { font-size:18px; margin:24px 0 12px; color:var(--text); }
+  .tier-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px; margin-bottom:24px; }
+  .industry-card { background:var(--card-bg); border-radius:10px; padding:16px; border:1px solid var(--border); transition:box-shadow .2s; }
+  .industry-card:hover { box-shadow:0 2px 12px rgba(0,0,0,.06); }
+  .industry-card .header { display:flex; align-items:center; gap:8px; margin-bottom:10px; }
+  .industry-card .name { font-weight:600; font-size:15px; }
+  .industry-card .score { margin-left:auto; font-weight:700; font-size:18px; }
+  .industry-card .dims { display:grid; grid-template-columns:1fr 1fr; gap:2px 12px; font-size:12px; color:var(--text-secondary); }
+  .industry-card .dims span { display:flex; justify-content:space-between; }
+  .industry-card .dims .dim-label { color:#9ca3af; }
+  .industry-card .dims .dim-val { font-weight:500; color:var(--text); }
+  .tag { display:inline-block; font-size:11px; padding:2px 8px; border-radius:10px; font-weight:600; margin-right:4px; }
+  .tag-a { background:var(--tag-a); color:var(--tag-a-text); }
+  .tag-b { background:var(--tag-b); color:var(--tag-b-text); }
+  .tag-c { background:var(--tag-c); color:var(--tag-c-text); }
+  .tag-d { background:var(--tag-d); color:var(--tag-d-text); }
+  .tier-badge { display:inline-block; padding:4px 12px; border-radius:6px; font-size:13px; font-weight:700; margin-bottom:12px; }
+  .badge-a { background:var(--tag-a); color:var(--tag-a-text); }
+  .badge-b { background:var(--tag-b); color:var(--tag-b-text); }
+  .badge-c { background:var(--tag-c); color:var(--tag-c-text); }
+  .badge-d { background:var(--tag-d); color:var(--tag-d-text); }
+  .action-table { width:100%; border-collapse:collapse; margin:16px 0; font-size:14px; }
+  .action-table th,.action-table td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--border); }
+  .action-table th { background:#f9fafb; font-weight:600; color:var(--text-secondary); font-size:12px; text-transform:uppercase; }
+  .action-table tr:hover { background:#f9fafb; }
+  .product-chip { font-size:11px; padding:1px 7px; border-radius:4px; background:#eff6ff; color:#1e40af; white-space:nowrap; display:inline-block; margin:1px; }
+  .trend-box { font-size:13px; color:var(--text-secondary); line-height:1.7; background:#f9fafb; border-radius:8px; padding:12px 16px; margin-bottom:12px; }
+  .weight-table { width:100%; border-collapse:collapse; margin:16px 0; font-size:14px; }
+  .weight-table th,.weight-table td { padding:8px 12px; border:1px solid var(--border); }
+  .weight-table th { background:#f0f7ff; font-weight:600; font-size:13px; }
+  .weight-table td { text-align:center; }
+  .weight-table .changed { background:#fef3c7; font-weight:600; }
+  .diff-up { color:#10b981; }
+  .diff-down { color:#ef4444; }
+  .diff-new { color:#2563eb; }
+  .arrow-up { color:#10b981; }
+  .arrow-down { color:#ef4444; }
+  .arrow-same { color:#9ca3af; }
+  @media(max-width:768px) {
+    .summary-cards { grid-template-columns:repeat(2,1fr); }
+    .tier-grid { grid-template-columns:1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <span class="version-badge">🎯 v3 · 目标品牌版</span>
+  <h1>🏬 行业趋势分析与投入建议 · 2026 H1</h1>
+  <p class="subtitle">基于「可计算开店」业务匹配度 × 行业近半年趋势 × 商业价值 × 落地可行性</p>
+  <p class="subtitle" style="font-size:13px;">9大行业组 · 27个细分行业 · 6维评分</p>
+</header>
+
+<!-- 权重变更说明 -->
+<section style="background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:24px;margin-bottom:12px;">
+  <h2 style="border:none;margin:0 0 12px 0;padding:0;font-size:18px;">📐 评分权重调整（v1 → v2）</h2>
+  <table class="weight-table">
+    <tr><th>评分维度</th><th>v1 权重</th><th>v2 权重</th><th>变化</th><th>调整理由</th></tr>
+    <tr><td>近半年行业趋势</td><td>20</td><td class="changed">25 <span class="diff-up">▲</span></td><td>+5</td><td style="text-align:left;">选对赛道是一切的前提，趋势决定需求基数</td></tr>
+    <tr><td>与业务匹配度</td><td>25</td><td class="changed">30 <span class="diff-up">▲</span></td><td>+5</td><td style="text-align:left;">最核心维度，匹配度决定转化率和交付质量</td></tr>
+    <tr><td>预算能力</td><td colspan="2" style="background:#f9fafb;">15 <span class="diff-new">●</span></td><td>拆分</td><td style="text-align:left;">从原"预算与客单价(20)"中独立，客户有没有真实预算</td></tr>
+    <tr><td>客单价空间</td><td colspan="2" style="background:#f9fafb;">5 <span class="diff-new">●</span></td><td>拆分</td><td style="text-align:left;">小单做好能升级，不作为硬性门槛</td></tr>
+    <tr><td>复制与复购空间</td><td>15</td><td>15</td><td>—</td><td style="text-align:left;">不变，案例可复用是利润和规模化的关键</td></tr>
+    <tr><td>进入难度与风险</td><td>20</td><td class="changed">10 <span class="diff-down">▼</span></td><td>-10</td><td style="text-align:left;">不过度设防，用试点化解不确定性</td></tr>
+    <tr style="font-weight:700;"><td>合计</td><td>100</td><td>100</td><td>—</td><td></td></tr>
+  </table>
+
+  <h3 style="margin-top:16px;font-size:15px;">v1 → v2 主要变化</h3>
+  <table class="action-table" style="margin:8px 0;">
+    <tr><th>变化</th><th>说明</th></tr>
+    <tr><td>商场 <span style="color:#92400e;">82→79</span> A→B</td><td>业务匹配度不再是最高档，预算偏中等，刚好掉出A类</td></tr>
+    <tr><td>金融 <span style="color:#6b7280;">47→51</span> D→C</td><td>风险权重下降后不再一票否决，但仍只适合被动承接</td></tr>
+    <tr><td>婚庆 <span style="color:#6b7280;">50→50</span> 保持C</td><td>结婚率下行趋势被趋势权重放大，但风险降低抵消，持平</td></tr>
+    <tr><td>食品饮料 <span style="color:#92400e;">79→76</span> 保持B</td><td>客单价空间被压低后略有回调</td></tr>
+    <tr><td>珠宝奢侈品 <span style="color:#1e40af;">80→80</span> 保持A</td><td>刚好卡线；匹配度高+高预算+趋势稳定使其站稳A类</td></tr>
+  </table>
+</section>
+
+<!-- 总览卡片 -->
+<div class="summary-cards">
+  <div class="summary-card a"><div class="label">A类 · 增加投入</div><div class="value">7</div></div>
+  <div class="summary-card b"><div class="label">B类 · 重点试点</div><div class="value">14</div></div>
+  <div class="summary-card c"><div class="label">C类 · 维持观察</div><div class="value">4</div></div>
+  <div class="summary-card d"><div class="label">D类 · 减少投入</div><div class="value">2</div></div>
+</div>
+
+<!-- 一、核心结论 -->
+<section>
+  <h2>🧭 核心结论速览</h2>
+  <div class="trend-box">
+    <strong>2026 H1 线下零售关键趋势：</strong>
+    <ul style="margin:8px 0 0 16px;">
+      <li>消费呈「哑铃型」— 高端品质消费与高性价比消费两头热，中间层品牌承压</li>
+      <li>线下零售从「规模扩张」转向「价值重塑」，场景化/体验化/数字化成为标配</li>
+      <li><strong>运动户外、香氛、潮玩</strong>三大品类高速增长；鞋服国牌崛起；美妆复苏</li>
+      <li>家居家装存量翻新需求爆发；便利店/茶饮/生鲜超市加速下沉扩张</li>
+      <li>文旅从「有没有」转向「好不好」，体验经济和IP引入是商场/景区升级关键</li>
+    </ul>
+  </div>
+  <div class="trend-box" style="background:#eff6ff;border:1px solid #bfdbfe;">
+    <strong>与可计算开店的核心交集：</strong>线下体验升级、品牌首店/测试店、慢闪验证模型、快闪引爆新品、选址数智化——五个需求在 <strong>运动户外、美妆香氛、鞋服潮玩、IP</strong> 四个方向上集中爆发。
+  </div>
+</section>
+
+<!-- 二、A类：增加投入（80分+） -->
+<section>
+  <h2>🟢 A类 · 增加投入 <span class="badge badge-a">7个行业 · 评分 ≥80</span></h2>
+  <p style="color:var(--text-secondary);font-size:14px;margin-bottom:16px;">趋势向上、与慢闪/快闪/体验营销高度匹配、客户预算真实、可复制案例多。</p>
+
+  <div class="tier-grid">
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🏃 运动户外</span><span class="score" style="color:#1e40af;">90</span></div>
+      <div class="dims">
+        <span><span class="dim-label">趋势</span><span class="dim-val">23/25</span></span>
+        <span><span class="dim-label">预算</span><span class="dim-val">13/15</span></span>
+        <span><span class="dim-label">匹配度</span><span class="dim-val">28/30</span></span>
+        <span><span class="dim-label">客单价</span><span class="dim-val">4/5</span></span>
+        <span><span class="dim-label">复制</span><span class="dim-val">13/15</span></span>
+        <span><span class="dim-label">风险</span><span class="dim-val">9/10</span></span>
+      </div>
+      <div style="margin-top:8px;"><span class="tag tag-a">A类</span><span class="product-chip">慢闪测试</span><span class="product-chip">快闪新品</span><span class="product-chip">单店模型</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🌸 香氛</span><span class="score" style="color:#1e40af;">88</span></div>
+      <div class="dims">
+        <span><span class="dim-label">趋势</span><span class="dim-val">23/25</span></span>
+        <span><span class="dim-label">预算</span><span class="dim-val">12/15</span></span>
+        <span><span class="dim-label">匹配度</span><span class="dim-val">28/30</span></span>
+        <span><span class="dim-label">客单价</span><span class="dim-val">4/5</span></span>
+        <span><span class="dim-label">复制</span><span class="dim-val">12/15</span></span>
+        <span><span class="dim-label">风险</span><span class="dim-val">9/10</span></span>
+      </div>
+      <div style="margin-top:8px;"><span class="tag tag-a">A类</span><span class="product-chip">慢闪体验</span><span class="product-chip">品牌首店</span><span class="product-chip">体验设计</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">👗 鞋服</span><span class="score" style="color:#1e40af;">87</span></div>
+      <div class="dims">
+        <span><span class="dim-label">趋势</span><span class="dim-val">21/25</span></span>
+        <span><span class="dim-label">预算</span><span class="dim-val">13/15</span></span>
+        <span><span class="dim-label">匹配度</span><span class="dim-val">27/30</span></span>
+        <span><span class="dim-label">客单价</span><span class="dim-val">4/5</span></span>
+        <span><span class="dim-label">复制</span><span class="dim-val">13/15</span></span>
+        <span><span class="dim-label">风险</span><span class="dim-val">9/10</span></span>
+      </div>
+      <div style="margin-top:8px;"><span class="tag tag-a">A类</span><span class="product-chip">慢闪店</span><span class="product-chip">多店测试</span><span class="product-chip">市场调研</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">💄 美妆</span><span class="score" style="color:#1e40af;">85</span></div>
+      <div class="dims">
+        <span><span class="dim-label">趋势</span><span class="dim-val">20/25</span></span>
+        <span><span class="dim-label">预算</span><span class="dim-val">13/15</span></span>
+        <span><span class="dim-label">匹配度</span><span class="dim-val">27/30</span></span>
+        <span><span class="dim-label">客单价</span><span class="dim-val">4/5</span></span>
+        <span><span class="dim-label">复制</span><span class="dim-val">12/15</span></span>
+        <span><span class="dim-label">风险</span><span class="dim-val">9/10</span></span>
+      </div>
+      <div style="margin-top:8px;"><span class="tag tag-a">A类</span><span class="product-chip">快闪体验</span><span class="product-chip">慢闪首店</span><span class="product-chip">体验SOP</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🧸 潮玩</span><span class="score" style="color:#1e40af;">83</span></div>
+      <div class="dims">
+        <span><span class="dim-label">趋势</span><span class="dim-val">21/25</span></span>
+        <span><span class="dim-label">预算</span><span class="dim-val">11/15</span></span>
+        <span><span class="dim-label">匹配度</span><span class="dim-val">27/30</span></span>
+        <span><span class="dim-label">客单价</span><span class="dim-val">3/5</span></span>
+        <span><span class="dim-label">复制</span><span class="dim-val">12/15</span></span>
+        <span><span class="dim-label">风险</span><span class="dim-val">9/10</span></span>
+      </div>
+      <div style="margin-top:8px;"><span class="tag tag-a">A类</span><span class="product-chip">快闪IP</span><span class="product-chip">慢闪测试</span><span class="product-chip">场景运营</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🎯 IP类</span><span class="score" style="color:#1e40af;">81</span></div>
+      <div class="dims">
+        <span><span class="dim-label">趋势</span><span class="dim-val">22/25</span></span>
+        <span><span class="dim-label">预算</span><span class="dim-val">11/15</span></span>
+        <span><span class="dim-label">匹配度</span><span class="dim-val">27/30</span></span>
+        <span><span class="dim-label">客单价</span><span class="dim-val">3/5</span></span>
+        <span><span class="dim-label">复制</span><span class="dim-val">9/15</span></span>
+        <span><span class="dim-label">风险</span><span class="dim-val">9/10</span></span>
+      </div>
+      <div style="margin-top:8px;"><span class="tag tag-a">A类</span><span class="product-chip">IP快闪</span><span class="product-chip">联名体验</span><span class="product-chip">内容策展</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">💎 珠宝奢侈品</span><span class="score" style="color:#1e40af;">80</span></div>
+      <div class="dims">
+        <span><span class="dim-label">趋势</span><span class="dim-val">18/25</span></span>
+        <span><span class="dim-label">预算</span><span class="dim-val">13/15</span></span>
+        <span><span class="dim-label">匹配度</span><span class="dim-val">26/30</span></span>
+        <span><span class="dim-label">客单价</span><span class="dim-val">4/5</span></span>
+        <span><span class="dim-label">复制</span><span class="dim-val">11/15</span></span>
+        <span><span class="dim-label">风险</span><span class="dim-val">8/10</span></span>
+      </div>
+      <div style="margin-top:8px;"><span class="tag tag-a">A类</span><span class="product-chip">体验设计</span><span class="product-chip">慢闪POPUP</span><span class="product-chip">MOT服务</span></div>
+    </div>
+
+  </div>
+
+  <h3>A类行业 · 行动建议</h3>
+  <table class="action-table">
+    <tr><th>行动项</th><th>具体措施</th></tr>
+    <tr><td>行业专项打法</td><td>为运动户外、香氛、美妆、鞋服各做「行业版解决方案」PPT，加入行业趋势数据、头部案例对标、典型客户问题</td></tr>
+    <tr><td>标杆案例</td><td>每个A类行业锁定1-2个标杆客户打透，沉淀可复用的客户故事和数据ROI</td></tr>
+    <tr><td>销售话术</td><td>围绕「线下体验决定转化」「先慢闪测试再复制」「从凭经验到可计算」三条主线打磨话术</td></tr>
+    <tr><td>目标清单</td><td>按行业建立Top 50品牌清单，标注线上起盘/新锐/跨品类扩张等标签定向BD</td></tr>
+  </table>
+</section>
+
+<!-- 三、B类：重点试点 -->
+<section>
+  <h2>🟡 B类 · 重点试点 <span class="badge badge-b">14个行业 · 评分65-79</span></h2>
+  <p style="color:var(--text-secondary);font-size:14px;margin-bottom:16px;">机会大但不确定性也高，适合小范围验证1-2个案例后再决定是否重投。</p>
+
+  <div class="tier-grid">
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🏬 商场</span><span class="score" style="color:#92400e;">79</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">20</span></span><span><span class="dim-label">预算</span><span class="dim-val">10</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">24</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">13</span></span><span><span class="dim-label">风险</span><span class="dim-val">9</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">品牌引入</span><span class="product-chip">空间招商</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">📱 3C数码</span><span class="score" style="color:#92400e;">77</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">18</span></span><span><span class="dim-label">预算</span><span class="dim-val">12</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">23</span></span><span><span class="dim-label">客单</span><span class="dim-val">4</span></span><span><span class="dim-label">复制</span><span class="dim-val">12</span></span><span><span class="dim-label">风险</span><span class="dim-val">8</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">慢闪体验</span><span class="product-chip">新品测试</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🍵 茶饮连锁</span><span class="score" style="color:#92400e;">77</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">21</span></span><span><span class="dim-label">预算</span><span class="dim-val">13</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">17</span></span><span><span class="dim-label">客单</span><span class="dim-val">4</span></span><span><span class="dim-label">复制</span><span class="dim-val">15</span></span><span><span class="dim-label">风险</span><span class="dim-val">7</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">数智化选址</span><span class="product-chip">竞品监测</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🥤 食品饮料</span><span class="score" style="color:#92400e;">76</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">19</span></span><span><span class="dim-label">预算</span><span class="dim-val">11</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">24</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">10</span></span><span><span class="dim-label">风险</span><span class="dim-val">9</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">快闪试用</span><span class="product-chip">新品活动</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🎢 乐园</span><span class="score" style="color:#92400e;">76</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">19</span></span><span><span class="dim-label">预算</span><span class="dim-val">12</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">23</span></span><span><span class="dim-label">客单</span><span class="dim-val">4</span></span><span><span class="dim-label">复制</span><span class="dim-val">10</span></span><span><span class="dim-label">风险</span><span class="dim-val">8</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">IP快闪</span><span class="product-chip">品牌合作</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🧴 洗护</span><span class="score" style="color:#92400e;">74</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">18</span></span><span><span class="dim-label">预算</span><span class="dim-val">11</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">22</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">11</span></span><span><span class="dim-label">风险</span><span class="dim-val">9</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">快闪体验</span><span class="product-chip">慢闪首店</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🎮 游戏/App</span><span class="score" style="color:#92400e;">74</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">20</span></span><span><span class="dim-label">预算</span><span class="dim-val">11</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">23</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">9</span></span><span><span class="dim-label">风险</span><span class="dim-val">8</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">IP快闪</span><span class="product-chip">打卡体验</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🐱 宠物</span><span class="score" style="color:#92400e;">72</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">21</span></span><span><span class="dim-label">预算</span><span class="dim-val">11</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">19</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">10</span></span><span><span class="dim-label">风险</span><span class="dim-val">8</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">慢闪体验</span><span class="product-chip">社区快闪</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">💊 保健品</span><span class="score" style="color:#92400e;">71</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">20</span></span><span><span class="dim-label">预算</span><span class="dim-val">11</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">20</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">10</span></span><span><span class="dim-label">风险</span><span class="dim-val">7</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">慢闪信任</span><span class="product-chip">体验教育</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🍽️ 餐厅</span><span class="score" style="color:#92400e;">71</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">19</span></span><span><span class="dim-label">预算</span><span class="dim-val">12</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">16</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">14</span></span><span><span class="dim-label">风险</span><span class="dim-val">7</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">数智化选址</span><span class="product-chip">网规拓店</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🏪 便利店</span><span class="score" style="color:#92400e;">71</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">20</span></span><span><span class="dim-label">预算</span><span class="dim-val">10</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">16</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">14</span></span><span><span class="dim-label">风险</span><span class="dim-val">8</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">数智化选址</span><span class="product-chip">点位推荐</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🏞️ 景区</span><span class="score" style="color:#92400e;">71</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">19</span></span><span><span class="dim-label">预算</span><span class="dim-val">10</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">22</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">10</span></span><span><span class="dim-label">风险</span><span class="dim-val">7</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">快闪体验</span><span class="product-chip">内容策展</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">🛋️ 家居家装</span><span class="score" style="color:#92400e;">70</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">17</span></span><span><span class="dim-label">预算</span><span class="dim-val">11</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">20</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">12</span></span><span><span class="dim-label">风险</span><span class="dim-val">7</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">慢闪体验</span><span class="product-chip">市场调研</span></div>
+    </div>
+
+    <div class="industry-card">
+      <div class="header"><span class="name">👶 母婴</span><span class="score" style="color:#92400e;">68</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">15</span></span><span><span class="dim-label">预算</span><span class="dim-val">10</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">22</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">10</span></span><span><span class="dim-label">风险</span><span class="dim-val">8</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-b">B类</span><span class="product-chip">慢闪体验</span><span class="product-chip">信任建立</span></div>
+    </div>
+
+  </div>
+
+  <h3>B类行业 · 试点策略</h3>
+  <table class="action-table">
+    <tr><th>策略</th><th>说明</th></tr>
+    <tr><td>找1-2个标杆</td><td>从商场（体验升级型）、3C数码（智能硬件新品牌）、茶饮（下沉扩张选址）中各找1个代表性客户试点</td></tr>
+    <tr><td>先卖咨询/调研</td><td>家居家装、保健品、宠物等行业先以「市场调研与门店定位」或「单店模型咨询」切入，降低客户决策门槛</td></tr>
+    <tr><td>数智化切入</td><td>茶饮、餐厅、便利店三个连锁赛道，以「数智化选址/UCR」为差异化钩子</td></tr>
+    <tr><td>不急着全铺</td><td>每个B类行业做出1个成功案例后，再评估是否升级为A类追加投入</td></tr>
+  </table>
+</section>
+
+<!-- 四、C类：维持观察 -->
+<section>
+  <h2>⚪ C类 · 维持观察 <span class="badge badge-c">4个行业 · 评分50-64</span></h2>
+  <p style="color:var(--text-secondary);font-size:14px;margin-bottom:16px;">能做但不是当前主攻方向，适合被动承接而非主动投入。</p>
+
+  <div class="tier-grid">
+    <div class="industry-card">
+      <div class="header"><span class="name">🚗 汽车</span><span class="score" style="color:#6b7280;">63</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">15</span></span><span><span class="dim-label">预算</span><span class="dim-val">11</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">17</span></span><span><span class="dim-label">客单</span><span class="dim-val">4</span></span><span><span class="dim-label">复制</span><span class="dim-val">10</span></span><span><span class="dim-label">风险</span><span class="dim-val">6</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-c">C类</span> 盯新能源新品牌慢闪体验，决策链长</div>
+    </div>
+    <div class="industry-card">
+      <div class="header"><span class="name">🏬 超市</span><span class="score" style="color:#6b7280;">63</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">19</span></span><span><span class="dim-label">预算</span><span class="dim-val">11</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">12</span></span><span><span class="dim-label">客单</span><span class="dim-val">4</span></span><span><span class="dim-label">复制</span><span class="dim-val">10</span></span><span><span class="dim-label">风险</span><span class="dim-val">7</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-c">C类</span> 大型连锁自建强，盯区域新零售</div>
+    </div>
+    <div class="industry-card">
+      <div class="header"><span class="name">💉 医美</span><span class="score" style="color:#6b7280;">63</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">16</span></span><span><span class="dim-label">预算</span><span class="dim-val">10</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">17</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">11</span></span><span><span class="dim-label">风险</span><span class="dim-val">6</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-c">C类</span> 获客预算大但监管严，可做特定场景</div>
+    </div>
+    <div class="industry-card">
+      <div class="header"><span class="name">🏋️ 健身</span><span class="score" style="color:#6b7280;">61</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">17</span></span><span><span class="dim-label">预算</span><span class="dim-val">9</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">15</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">10</span></span><span><span class="dim-label">风险</span><span class="dim-val">7</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-c">C类</span> 精品健身可做快闪获客</div>
+    </div>
+  </div>
+
+  <p style="margin-top:12px;color:var(--text-secondary);font-size:13px;">行动建议：保留基础方案，被动承接，不投入大量BD和内容资源。汽车可盯新能源品牌如蔚来/理想/小鹏的体验中心场景。</p>
+</section>
+
+<!-- 五、D类 -->
+<section>
+  <h2>🔴 D类 · 减少投入 / 谨慎进入 <span class="badge badge-d">2个行业 · 评分&lt;50</span></h2>
+
+  <div class="tier-grid">
+    <div class="industry-card">
+      <div class="header"><span class="name">🏠 房产</span><span class="score" style="color:#991b1b;">48</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">12</span></span><span><span class="dim-label">预算</span><span class="dim-val">8</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">12</span></span><span><span class="dim-label">客单</span><span class="dim-val">3</span></span><span><span class="dim-label">复制</span><span class="dim-val">8</span></span><span><span class="dim-label">风险</span><span class="dim-val">5</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-d">D类</span> 增量萎缩，预算收缩</div>
+    </div>
+    <div class="industry-card">
+      <div class="header"><span class="name">📚 教育</span><span class="score" style="color:#991b1b;">46</span></div>
+      <div class="dims"><span><span class="dim-label">趋势</span><span class="dim-val">11</span></span><span><span class="dim-label">预算</span><span class="dim-val">8</span></span><span><span class="dim-label">匹配度</span><span class="dim-val">12</span></span><span><span class="dim-label">客单</span><span class="dim-val">2</span></span><span><span class="dim-label">复制</span><span class="dim-val">8</span></span><span><span class="dim-label">风险</span><span class="dim-val">5</span></span></div>
+      <div style="margin-top:6px;"><span class="tag tag-d">D类</span> 监管持续，与核心能力偏离大</div>
+    </div>
+  </div>
+
+  <div class="trend-box" style="background:#fef2f2;border:1px solid #fecaca;margin-top:12px;">
+    <strong>⚠️ 金融(51分)虽在C类边界，但业务匹配度低(11/30)、监管风险高：</strong>不主动拓展，只做头部高质量客户，坚决避免长账期项目。
+  </div>
+</section>
+
+<!-- 六、匹配矩阵 -->
+<section>
+  <h2>📊 行业 × 产品线匹配矩阵</h2>
+  <table class="action-table">
+    <tr><th>行业组</th><th>🔥 快闪</th><th>🐢 慢闪</th><th>📊 数智化</th><th>🎨 体验设计</th><th>🔍 调研定位</th><th>投入级</th></tr>
+    <tr><td><strong>运动户外</strong></td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐</td><td><span class="tag tag-a">A</span></td></tr>
+    <tr><td><strong>香氛</strong></td><td>⭐⭐</td><td>⭐⭐⭐</td><td>⭐</td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td><span class="tag tag-a">A</span></td></tr>
+    <tr><td><strong>鞋服</strong></td><td>⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td><span class="tag tag-a">A</span></td></tr>
+    <tr><td><strong>美妆</strong></td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐</td><td><span class="tag tag-a">A</span></td></tr>
+    <tr><td><strong>潮玩</strong></td><td>⭐⭐⭐</td><td>⭐⭐</td><td>⭐</td><td>⭐⭐</td><td>⭐⭐</td><td><span class="tag tag-a">A</span></td></tr>
+    <tr><td><strong>IP类</strong></td><td>⭐⭐⭐</td><td>⭐⭐</td><td>⭐</td><td>⭐⭐⭐</td><td>⭐⭐</td><td><span class="tag tag-a">A</span></td></tr>
+    <tr><td><strong>珠宝奢侈品</strong></td><td>⭐⭐</td><td>⭐⭐⭐</td><td>⭐</td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td><span class="tag tag-a">A</span></td></tr>
+    <tr style="background:#fffbeb;"><td><strong>商场</strong></td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐</td><td>⭐⭐</td><td><span class="tag tag-b">B</span></td></tr>
+    <tr style="background:#fffbeb;"><td><strong>3C数码</strong></td><td>⭐⭐</td><td>⭐⭐⭐</td><td>⭐</td><td>⭐⭐⭐</td><td>⭐⭐</td><td><span class="tag tag-b">B</span></td></tr>
+    <tr style="background:#fffbeb;"><td><strong>茶饮连锁</strong></td><td>⭐</td><td>⭐</td><td>⭐⭐⭐</td><td>⭐</td><td>⭐⭐⭐</td><td><span class="tag tag-b">B</span></td></tr>
+    <tr style="background:#fffbeb;"><td><strong>食品饮料</strong></td><td>⭐⭐⭐</td><td>⭐⭐</td><td>⭐</td><td>⭐</td><td>⭐⭐</td><td><span class="tag tag-b">B</span></td></tr>
+    <tr style="background:#fffbeb;"><td><strong>家居家装</strong></td><td>⭐</td><td>⭐⭐⭐</td><td>⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td><span class="tag tag-b">B</span></td></tr>
+    <tr style="background:#f9fafb;"><td><strong>汽车</strong></td><td>⭐⭐</td><td>⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐</td><td>⭐⭐</td><td><span class="tag tag-c">C</span></td></tr>
+    <tr style="background:#fef2f2;"><td><strong>房产/教育</strong></td><td>⭐</td><td>⭐</td><td>⭐</td><td>⭐</td><td>⭐</td><td><span class="tag tag-d">D</span></td></tr>
+  </table>
+</section>
+
+<!-- 七、BD路线图 -->
+<section>
+  <h2>🎯 未来3-6个月 BD 行动路线图</h2>
+
+  <h3>第一优先级：A类立标杆</h3>
+  <div class="trend-box">
+    <strong>目标：</strong>运动户外、香氛、美妆、鞋服各完成1-2个标杆慢闪/快闪案例。<br>
+    <strong>时间：</strong>1-2个月内锁定客户，3-4个月内落地，6个月内产出案例。<br>
+    <strong>切入点：</strong>
+    <ul style="margin:6px 0 0 16px;">
+      <li>运动户外：「先开慢闪验证单店模型，跑通再复制，别一上来签长租」</li>
+      <li>香氛：「香需要线下五感体验建立认知和溢价，慢闪是最低试错成本」</li>
+      <li>美妆：「线上种草到线下转化差3倍？让顾客摸到闻到试到才是关键」</li>
+      <li>鞋服：「国牌要打出溢价感，门店体验是第一关」</li>
+    </ul>
+  </div>
+
+  <h3>第二优先级：B类做验证</h3>
+  <div class="trend-box">
+    <strong>优先试点：</strong>商场（体验升级型）、3C智能硬件新品牌、茶饮下沉扩张选址、新锐食品线下首秀。<br>
+    <strong>判断标准：</strong>试点后客户复购意愿强、案例可讲、交付成本可控 → 升级A类。
+  </div>
+
+  <h3>内容基建同步推进</h3>
+  <div class="trend-box">
+    <ul style="margin:6px 0 0 16px;">
+      <li>公众号/知乎/小红书输出「慢闪开店」「可计算开店」系列深度文章</li>
+      <li>制作A类行业版慢闪解决方案PDF，用于销售触达</li>
+      <li>沉淀客户案例拆解（脱敏版），用于BD和内容传播</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 八、目标品牌清单 -->
+<section>
+  <h2>🎯 各行业高优先级目标品牌清单</h2>
+  <p style="color:var(--text-secondary);font-size:14px;margin-bottom:16px;">基于2026年Q1公开拓店数据、行业趋势和业务匹配度，梳理各细分行业可优先出击的品牌。品牌选择逻辑：正在/即将开线下店、有体验升级需求、有真实预算。</p>
+
+  <h3>🟢 A类行业 · 高优先级出击品牌</h3>
+
+  <table class="action-table">
+    <tr><th style="width:10%;">行业</th><th style="width:14%;">品牌</th><th style="width:10%;">类型</th><th style="width:8%;">评分</th><th>为什么值得打</th><th style="width:20%;">推荐切入产品</th></tr>
+
+    <!-- ===== 运动户外 ===== -->
+    <tr style="background:#f0f7ff;"><td rowspan="10"><strong>🏃 运动户外</strong><br><span class="badge badge-a">90分</span></td></tr>
+    <tr><td><strong>On昂跑</strong></td><td>瑞士/跑步</td><td>🔥🔥🔥</td><td>目标2026年中国100店，狂飙二线首店；直营+代理并行急需开店模型</td><td>慢闪首店 · 选址调研</td></tr>
+    <tr><td><strong>Hoka One One</strong></td><td>美国/跑步</td><td>🔥🔥🔥</td><td>中国增长初期，品牌认知24%；刚开旗舰店，需要多城测试</td><td>慢闪测试 · 多店验证</td></tr>
+    <tr><td><strong>Salomon萨洛蒙</strong></td><td>法国/户外</td><td>🔥🔥🔥</td><td>时尚化转型，从专业户外到潮流生活方式；首店+二线城市下沉</td><td>快闪潮流 · 首店模型</td></tr>
+    <tr><td><strong>NIKE ACG</strong></td><td>美国/户外</td><td>🔥🔥</td><td>Q1在北京太古里开全球首店"ACG大本营"，刚起步需验证</td><td>慢闪验证 · 体验设计</td></tr>
+    <tr><td><strong>始祖鸟Arc'teryx</strong></td><td>加拿大/户外</td><td>🔥🔥</td><td>高端户外标杆，门店体验至关重要；多城扩张中</td><td>体验设计 · MOT服务</td></tr>
+    <tr><td><strong>安踏/斐乐</strong></td><td>中国/综合</td><td>🔥🔥🔥</td><td>多品牌策略持续推新子品牌，每个新品牌需要开店验证</td><td>单店模型 · 多店测试</td></tr>
+    <tr><td><strong>凯乐石</strong></td><td>中国/户外</td><td>🔥🔥</td><td>国产户外头部，线下体验升级需求明显</td><td>慢闪体验 · 市场调研</td></tr>
+    <tr><td><strong>nanamica</strong></td><td>日本/户外潮流</td><td>🔥</td><td>Q1武康路首店入华，后续需多城测试</td><td>慢闪测试 · 市场调研</td></tr>
+    <tr><td><strong>NANGA/Smartwool</strong></td><td>日本·美国</td><td>🔥</td><td>Q1首店入华潮，日本/美国户外新品牌密集进入</td><td>慢闪首店 · 选址调研</td></tr>
+
+    <!-- ===== 香氛 ===== -->
+    <tr style="background:#f0f7ff;"><td rowspan="8"><strong>🌸 香氛</strong><br><span class="badge badge-a">88分</span></td></tr>
+    <tr><td><strong>观夏ToSummer</strong></td><td>中国/东方香</td><td>🔥🔥🔥</td><td>国潮香氛标杆，刚开"香铺"独立品类空间；线下模型复制中</td><td>慢闪体验 · 五感设计</td></tr>
+    <tr><td><strong>闻献DOCUMENTS</strong></td><td>中国/高端</td><td>🔥🔥🔥</td><td>千元级国产高端香，进SKP等高端商场；快速复制需求</td><td>单店模型 · 体验设计</td></tr>
+    <tr><td><strong>melt season</strong></td><td>中国/高端</td><td>🔥🔥🔥</td><td>千元级，超千万天使轮融资后密集开店；一月连开三家</td><td>慢闪首店 · 多店测试</td></tr>
+    <tr><td><strong>Le Labo</strong></td><td>法国/沙龙香</td><td>🔥🔥</td><td>国际高端沙龙香，中国扩张加速；线下体验是核心</td><td>慢闪体验 · 品牌首店</td></tr>
+    <tr><td><strong>Byredo/Diptyque</strong></td><td>欧洲/沙龙香</td><td>🔥🔥</td><td>经典沙龙香品牌，快闪/POPUP需求频繁；品牌调性匹配</td><td>快闪体验 · POPUP</td></tr>
+    <tr><td><strong>野兽派</strong></td><td>中国/生活方式</td><td>🔥🔥</td><td>跨界香氛+家居+花艺，线下空间持续升级</td><td>体验设计 · 场景快闪</td></tr>
+    <tr><td><strong>气味图书馆</strong></td><td>中国/国民香</td><td>🔥</td><td>国民香氛品牌，线下体验升级；新概念店型摸索中</td><td>慢闪测试 · 体验设计</td></tr>
+
+    <!-- ===== 鞋服 ===== -->
+    <tr style="background:#f0f7ff;"><td rowspan="9"><strong>👗 鞋服</strong><br><span class="badge badge-a">87分</span></td></tr>
+    <tr><td><strong>内外NEIWAI</strong></td><td>中国/内衣家居</td><td>🔥🔥🔥</td><td>新女性品牌标杆，线下门店加速，需要单店模型优化</td><td>慢闪店 · 体验设计</td></tr>
+    <tr><td><strong>蕉内Bananain</strong></td><td>中国/科技内衣</td><td>🔥🔥🔥</td><td>科技+设计新锐，门店扩张中；线下差异化体验需求</td><td>慢闪首店 · 单店模型</td></tr>
+    <tr><td><strong>MAIA ACTIVE</strong></td><td>中国/运动休闲</td><td>🔥🔥</td><td>女性运动休闲头部，门店持续扩张，体验升级需求</td><td>慢闪测试 · 体验设计</td></tr>
+    <tr><td><strong>致知ZHIZHI</strong></td><td>中国/设计师</td><td>🔥🔥</td><td>新中式设计师品牌崛起，首店/概念店需求</td><td>慢闪首店 · 市场调研</td></tr>
+    <tr><td><strong>之禾ICICLE</strong></td><td>中国/高端女装</td><td>🔥🔥</td><td>中国高端女装，多城精品店扩张</td><td>体验设计 · 调研定位</td></tr>
+    <tr><td><strong>白小T</strong></td><td>中国/男装新锐</td><td>🔥🔥</td><td>线上爆品起盘，线下试水意愿强</td><td>慢闪首店 · 测试验证</td></tr>
+    <tr><td><strong>回力1927</strong></td><td>中国/国潮</td><td>🔥🔥</td><td>Q1上海淮海路概念首店开业，Z世代国潮线刚起步</td><td>慢闪测试 · 品牌体验</td></tr>
+    <tr><td><strong>Studio Nicholson</strong></td><td>英国/极简</td><td>🔥</td><td>Q1上海芮欧首店入华，国际设计师品牌本地化</td><td>慢闪测试 · 市场调研</td></tr>
+
+    <!-- ===== 美妆 ===== -->
+    <tr style="background:#f0f7ff;"><td rowspan="8"><strong>💄 美妆</strong><br><span class="badge badge-a">85分</span></td></tr>
+    <tr><td><strong>花西子</strong></td><td>中国/东方彩妆</td><td>🔥🔥🔥</td><td>Q1首进高端百货业态，线下渠道突破；体验店模型缺</td><td>慢闪首店 · 体验SOP</td></tr>
+    <tr><td><strong>完美日记</strong></td><td>中国/国货美妆</td><td>🔥🔥🔥</td><td>线下门店模型需要升级迭代，从"多开店"到"开好店"</td><td>体验设计 · 单店模型</td></tr>
+    <tr><td><strong>毛戈平</strong></td><td>中国/专业彩妆</td><td>🔥🔥🔥</td><td>专业彩妆标杆，线下体验是核心竞争力</td><td>体验设计 · MOT服务</td></tr>
+    <tr><td><strong>珀莱雅</strong></td><td>中国/功效护肤</td><td>🔥🔥</td><td>功效护肤头部，线下渠道拓展；体验+教育型场景</td><td>慢闪体验 · 调研定位</td></tr>
+    <tr><td><strong>薇诺娜</strong></td><td>中国/敏感肌</td><td>🔥🔥</td><td>敏感肌赛道第一，线下专柜/快闪体验需求</td><td>快闪体验 · 信任建立</td></tr>
+    <tr><td><strong>彩棠</strong></td><td>中国/专业彩妆</td><td>🔥🔥</td><td>专业彩妆新锐，线下首店/体验店需求</td><td>慢闪首店 · 品牌体验</td></tr>
+    <tr><td><strong>方里FUNNY ELVES</strong></td><td>中国/底妆</td><td>🔥</td><td>底妆新锐品牌崛起，线下试色/体验是刚需</td><td>快闪体验 · 慢闪测试</td></tr>
+
+    <!-- ===== 潮玩 ===== -->
+    <tr style="background:#f0f7ff;"><td rowspan="5"><strong>🧸 潮玩</strong><br><span class="badge badge-a">83分</span></td></tr>
+    <tr><td><strong>泡泡玛特POPMART</strong></td><td>中国/潮玩</td><td>🔥🔥🔥</td><td>头部潮玩，IP快闪/主题店/城市限定需求频繁</td><td>IP快闪 · 主题慢闪</td></tr>
+    <tr><td><strong>52TOYS</strong></td><td>中国/收藏玩具</td><td>🔥🔥</td><td>收藏玩具赛道老二，线下扩张+快闪需求</td><td>快闪体验 · 慢闪测试</td></tr>
+    <tr><td><strong>TOP TOY</strong></td><td>中国/潮玩集合</td><td>🔥🔥</td><td>潮玩集合店模式，多城扩张；新店型测试需求</td><td>慢闪测试 · 市场调研</td></tr>
+    <tr><td><strong>寻找独角兽/TNT SPACE</strong></td><td>中国/艺术潮玩</td><td>🔥🔥</td><td>设计师/艺术潮玩兴起，IP快闪和线下体验是新战场</td><td>IP快闪 · 场景策展</td></tr>
+
+    <!-- ===== IP类 ===== -->
+    <tr style="background:#f0f7ff;"><td rowspan="5"><strong>🎯 IP类</strong><br><span class="badge badge-a">81分</span></td></tr>
+    <tr><td><strong>米哈游/原神</strong></td><td>中国/游戏IP</td><td>🔥🔥🔥</td><td>游戏IP快闪常青树，每次快闪排队现象级</td><td>IP快闪 · 沉浸体验</td></tr>
+    <tr><td><strong>王者荣耀/腾讯游戏</strong></td><td>中国/游戏IP</td><td>🔥🔥🔥</td><td>国民级游戏IP，联名快闪/主题活动需求稳定</td><td>IP快闪 · 联名体验</td></tr>
+    <tr><td><strong>故宫文创/敦煌文创</strong></td><td>中国/文博IP</td><td>🔥🔥</td><td>最强国潮IP矩阵，线下快闪/场景策展刚需</td><td>快闪策展 · 场景运营</td></tr>
+    <tr><td><strong>线条小狗/小黄人等</strong></td><td>国际/萌系IP</td><td>🔥🔥</td><td>萌系IP联名持续火爆，商场/乐园快闪需求大</td><td>IP快闪 · 联名体验</td></tr>
+
+    <!-- ===== 珠宝 ===== -->
+    <tr style="background:#f0f7ff;"><td rowspan="4"><strong>💎 珠宝</strong><br><span class="badge badge-a">80分</span></td></tr>
+    <tr><td><strong>老铺黄金</strong></td><td>中国/古法金</td><td>🔥🔥🔥</td><td>古法金头部，门店体验升级；高端慢闪/POPUP潜力</td><td>慢闪POPUP · 体验设计</td></tr>
+    <tr><td><strong>周大福/传承系列</strong></td><td>中国/珠宝</td><td>🔥🔥</td><td>门店体验焕新需求，传承系列需要差异化体验</td><td>体验设计 · MOT服务</td></tr>
+    <tr><td><strong>DR钻戒/I Do</strong></td><td>中国/婚庆珠宝</td><td>🔥🔥</td><td>求婚钻戒品牌，快闪求婚场景/体验营销有独特需求</td><td>快闪体验 · 场景设计</td></tr>
+  </table>
+
+  <h3 style="margin-top:32px;">🟡 B类行业 · 优先试点品牌</h3>
+
+  <table class="action-table">
+    <tr><th style="width:10%;">行业</th><th style="width:14%;">品牌</th><th style="width:8%;">评分</th><th>切入理由</th><th style="width:20%;">推荐产品</th></tr>
+
+    <tr><td rowspan="4"><strong>🏬 商场</strong></td><td><strong>万象城/万象天地(华润)</strong></td><td>🔥🔥🔥</td><td>头部商业地产，急需引入品牌快闪/慢闪提升空间价值</td><td>品牌引入 · 空间招商</td></tr>
+    <tr><td><strong>大悦城(中粮)</strong></td><td>🔥🔥🔥</td><td>年轻潮流定位，是快闪/IP活动的核心承载场景</td><td>快闪活动 · 品牌引入</td></tr>
+    <tr><td><strong>K11/太古里/来福士</strong></td><td>🔥🔥</td><td>高端/艺术商业，适合慢闪品牌首店和体验型POPUP</td><td>慢闪首店 · POPUP</td></tr>
+    <tr><td><strong>嘉里中心/壹方城</strong></td><td>🔥🔥</td><td>区域标杆商业，高端首店承接方；新品牌入城第一站</td><td>品牌引入 · 首店落地</td></tr>
+
+    <tr><td rowspan="4"><strong>📱 3C数码</strong></td><td><strong>DJI大疆</strong></td><td>🔥🔥🔥</td><td>智能硬件标杆，旗舰体验店持续升级；新品体验场景需求</td><td>慢闪体验 · 新品测试</td></tr>
+    <tr><td><strong>追觅Dreame</strong></td><td>🔥🔥🔥</td><td>智能清洁黑马，线下首店/体验店刚起步</td><td>慢闪首店 · 体验设计</td></tr>
+    <tr><td><strong>Insta360影石</strong></td><td>🔥🔥</td><td>Q1首店开业，智能影像品牌线下体验是刚需</td><td>慢闪首店 · 体验设计</td></tr>
+    <tr><td><strong>SayRose</strong></td><td>🔥🔥</td><td>Q1全国首店开业，女性3C品类新玩家</td><td>慢闪测试 · 市场调研</td></tr>
+
+    <tr><td rowspan="4"><strong>🍵 茶饮</strong></td><td><strong>霸王茶姬</strong></td><td>🔥🔥🔥</td><td>3500+店，新城市下沉扩张；需要数智化选址和竞品监测</td><td>数智化选址 · 竞品监测</td></tr>
+    <tr><td><strong>喜茶</strong></td><td>🔥🔥🔥</td><td>HEYTEA LAB2.0概念店，持续创新店型；新店型验证需求</td><td>体验设计 · 单店模型</td></tr>
+    <tr><td><strong>奈雪の茶</strong></td><td>🔥🔥</td><td>"纤·Studio"健康概念店新开，概念店型测试中</td><td>慢闪测试 · 体验设计</td></tr>
+    <tr><td><strong>瑞幸</strong></td><td>🔥🔥🔥</td><td>30000店，原产地旗舰店新概念；数智化选址需求巨大</td><td>数智化选址 · 网规拓店</td></tr>
+
+    <tr><td rowspan="4"><strong>🥤 食品饮料</strong></td><td><strong>三顿半/永璞</strong></td><td>🔥🔥🔥</td><td>线上咖啡品牌，线下首店/POPUP试水需求强烈</td><td>快闪体验 · 慢闪首店</td></tr>
+    <tr><td><strong>好望水/元气森林</strong></td><td>🔥🔥</td><td>新消费饮品头部，快闪打卡/新品体验需求</td><td>快闪试用 · 事件营销</td></tr>
+    <tr><td><strong>Oatly</strong></td><td>🔥🔥</td><td>植物基标杆，线下快闪/体验活动频繁</td><td>快闪体验 · 品牌活动</td></tr>
+    <tr><td><strong>CHALI茶里</strong></td><td>🔥🔥</td><td>新式茶品牌，线下体验店/快闪需求</td><td>慢闪体验 · 场景快闪</td></tr>
+
+    <tr><td rowspan="3"><strong>🐱 宠物</strong></td><td><strong>疯狂小狗/卫仕</strong></td><td>🔥🔥🔥</td><td>宠物食品头部，线下体验店/社区快闪首次触达消费者</td><td>慢闪体验 · 社区快闪</td></tr>
+    <tr><td><strong>小佩宠物</strong></td><td>🔥🔥</td><td>智能宠物用品，线下体验是新战场</td><td>慢闪体验 · 产品体验</td></tr>
+    <tr><td><strong>未卡VETRESKA</strong></td><td>🔥🔥</td><td>宠物生活方式品牌，猫空间快闪/体验店</td><td>快闪体验 · 场景策展</td></tr>
+
+    <tr><td rowspan="3"><strong>🛋️ 家居家装</strong></td><td><strong>源氏木语</strong></td><td>🔥🔥🔥</td><td>实木家具线上头部，线下首店/体验店扩张中</td><td>慢闪体验 · 市场调研</td></tr>
+    <tr><td><strong>林氏家居</strong></td><td>🔥🔥🔥</td><td>家居新零售，线下门店持续扩张；需要快闪引流+体验</td><td>慢闪测试 · 单店模型</td></tr>
+    <tr><td><strong>顾家家居/舒福德</strong></td><td>🔥🔥</td><td>头部家居品牌，智能/健康概念新店型测试</td><td>体验设计 · 调研定位</td></tr>
+
+    <tr><td rowspan="3"><strong>💊 保健品</strong></td><td><strong>Swisse/汤臣倍健</strong></td><td>🔥🔥🔥</td><td>保健品头部，线下体验/快闪/教育型场景新需求</td><td>慢闪体验 · 教育场景</td></tr>
+    <tr><td><strong>WonderLab</strong></td><td>🔥🔥🔥</td><td>新式营养品牌，线下首店/快闪试水意愿强</td><td>慢闪首店 · 快闪体验</td></tr>
+    <tr><td><strong>AG小绿粉/LEMONBOX</strong></td><td>🔥🔥</td><td>个性化营养新品牌，信任建立需要线下体验</td><td>慢闪体验 · 信任建立</td></tr>
+
+    <tr><td rowspan="4"><strong>🍽️ 连锁餐饮</strong></td><td><strong>海底捞(新品牌线)</strong></td><td>🔥🔥🔥</td><td>Q1推糖水铺新子品牌，多品牌孵化持续；新店模型验证需求</td><td>单店模型 · 慢闪测试</td></tr>
+    <tr><td><strong>太二/费大厨</strong></td><td>🔥🔥🔥</td><td>酸菜鱼/湘菜连锁头部，新模型店持续调改；选址决策智能</td><td>数智化选址 · 单店模型</td></tr>
+    <tr><td><strong>塔斯汀/遇见小面</strong></td><td>🔥🔥</td><td>中式快餐黑马，全国扩张中；开店需要数智化决策</td><td>数智化选址 · 网规拓店</td></tr>
+    <tr><td><strong>鲍师傅(西餐新线)</strong></td><td>🔥🔥</td><td>Q1跨界开出西餐厅，业态跨界升级；新模型验证需求大</td><td>慢闪测试 · 市场调研</td></tr>
+
+  </table>
+
+  <h3 style="margin-top:32px;">⚪ C类行业 · 可关注品牌</h3>
+
+  <table class="action-table">
+    <tr><th>行业</th><th>品牌</th><th>切入场景</th></tr>
+    <tr><td><strong>🚗 汽车</strong></td><td>蔚来NIO House、理想、小鹏</td><td>新能源品牌体验中心场景升级，但不作为主攻方向</td></tr>
+    <tr><td><strong>💉 医美</strong></td><td>美莱、艺星、朗姿</td><td>特定场景：连锁医美品牌新店选址/快闪获客，但监管风险需谨慎</td></tr>
+    <tr><td><strong>🏪 便利店/超市</strong></td><td>罗森、全家、盒马</td><td>数智化选址小范围试点，不做主要BD</td></tr>
+  </table>
+
+  <div class="trend-box" style="background:#eff6ff;border:1px solid #bfdbfe;margin-top:16px;">
+    <strong>🔥 品牌热度标记说明：</strong>
+    三个🔥 = 正在密集开店/有明确拓店计划，优先触达；两个🔥 = 有线下升级需求，值得跟进；一个🔥 = 体量小或刚入华，适合早期建联。
+  </div>
+</section>
+
+
+<!-- 九、风险 -->
+<section>
+  <h2>⚠️ 关键风险提示</h2>
+  <table class="action-table">
+    <tr><th>风险</th><th>应对</th></tr>
+    <tr><td>消费「哑铃型」分化，中间层品牌预算收缩</td><td>聚焦有溢价意愿的品牌，避开纯价格战品类</td></tr>
+    <tr><td>客户把你们当「点位供应商」</td><td>销售话术强化「咨询+技术+运营」，首单必带调研/模型服务</td></tr>
+    <tr><td>风口行业竞争加剧</td><td>差异化定位：不是活动公司，是「开店模型验证服务商」</td></tr>
+    <tr><td>连锁客户已有成熟选址体系</td><td>以数智化UCR做差异化钩子，不硬碰他们已有团队</td></tr>
+  </table>
+</section>
+
+<footer style="text-align:center;padding:32px 0;color:var(--text-secondary);font-size:12px;border-top:1px solid var(--border);margin-top:40px;">
+  <p>基于可计算开店解决方案资料 + 2026 H1行业公开数据交叉分析 · v3目标品牌版 · 2026年6月</p>
+</footer>
+
+</div>
+</body>
+</html>
