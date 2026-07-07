@@ -3,26 +3,161 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="0; url=03_%E7%B3%BB%E7%BB%9F%E7%9B%B8%E5%85%B3/website/index.html">
-  <title>线下活动情报库</title>
-  <style>
-    body {
-      display: grid;
-      min-height: 100vh;
-      margin: 0;
-      place-items: center;
-      background: #f6f7f9;
-      color: #17212b;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
-    }
-
-    a {
-      color: #2563eb;
-      font-weight: 700;
-    }
-  </style>
+  <title>线下活动情报库 · 1.0</title>
+  <link rel="stylesheet" href="styles.css?v=45">
 </head>
 <body>
-  <p>正在打开线下活动情报库，若未自动跳转，请点击 <a href="03_%E7%B3%BB%E7%BB%9F%E7%9B%B8%E5%85%B3/website/index.html">进入网站</a>。</p>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">LHB</span>
+      <div>
+        <h1>线下活动情报库</h1>
+        <p>面向可计算开店业务的展会、快闪、峰会与品牌活动雷达</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#search">搜索</a>
+      <a href="#events">活动</a>
+      <a href="#topics">专题</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="overview-panel" aria-label="头部数据概览">
+      <div class="metrics" aria-label="关键指标">
+        <article><span id="totalCount">0</span><p>活动总数</p></article>
+        <article>
+          <span id="pendingCount">0</span>
+          <p>未进行活动数</p>
+        </article>
+        <article><span id="cityCount">0</span><p>覆盖城市</p></article>
+        <p class="metrics-note">未进行 = 即将开始、筹备中、待确认；不含进行中与历史。</p>
+      </div>
+
+      <div class="overview-charts" aria-label="未进行活动分布">
+        <article class="chart-card">
+          <div class="chart-head">
+            <div class="section-title-line">
+              <p class="eyebrow">City</p>
+              <h2>城市分布</h2>
+            </div>
+            <span class="section-note">未进行活动</span>
+          </div>
+          <div id="pendingCityChart" class="pie-chart-block"></div>
+        </article>
+        <article class="chart-card">
+          <div class="chart-head">
+            <div class="section-title-line">
+              <p class="eyebrow">Industry</p>
+              <h2>行业分布</h2>
+            </div>
+            <span class="section-note">多行业分别计入</span>
+          </div>
+          <div id="pendingIndustryChart" class="pie-chart-block"></div>
+        </article>
+        <article class="chart-card">
+          <div class="chart-head">
+            <div class="section-title-line">
+              <p class="eyebrow">Type</p>
+              <h2>类型统计</h2>
+            </div>
+            <span class="section-note">按活动类型统计</span>
+          </div>
+          <div id="pendingTypeChart" class="pie-chart-block"></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="topics" class="section featured-section">
+      <div class="section-head">
+        <div class="section-title-line">
+          <p class="eyebrow">S/A 级优先曝光</p>
+          <h2>头部活动专题</h2>
+        </div>
+        <span class="section-note">仅展示“即将开始”的头部活动</span>
+      </div>
+      <div id="featuredGrid" class="featured-grid"></div>
+    </section>
+
+    <section id="search" class="search-workbench" aria-label="活动搜索">
+      <div class="search-copy">
+        <p class="eyebrow">Search</p>
+        <h2>搜索与筛选</h2>
+      </div>
+      <div class="search-panel">
+        <label for="searchInput">搜索</label>
+        <div class="search-row">
+          <input id="searchInput" type="search" placeholder="输入活动、品牌、城市、行业或主办方">
+          <button id="searchButton" type="button">搜索</button>
+        </div>
+      </div>
+      <div class="filter-sticky">
+        <div class="top-filter-bar">
+          <details class="filter-wide" open>
+            <summary>行业</summary>
+            <div id="industryFilters" class="filter-options"></div>
+          </details>
+          <details open>
+            <summary>城市</summary>
+            <div id="cityFilters" class="filter-options"></div>
+          </details>
+          <details open>
+            <summary>时间</summary>
+            <div id="timeFilters" class="filter-options"></div>
+          </details>
+          <details open>
+            <summary>类型</summary>
+            <div id="typeFilters" class="filter-options"></div>
+          </details>
+          <details open>
+            <summary>状态</summary>
+            <div id="statusFilters" class="filter-options"></div>
+          </details>
+          <details class="filter-wide" open>
+            <summary>来源</summary>
+            <div id="sourceFilters" class="filter-options"></div>
+          </details>
+        </div>
+        <div class="active-filter-row">
+          <div class="active-filters" id="activeFilters"></div>
+          <div class="filter-actions">
+            <span id="filterResultCount" class="filter-result-count" aria-live="polite">0 条结果</span>
+            <button id="clearFilters" class="clear-filter-button" type="button">清空</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div id="events" class="events-area">
+        <div class="section-head compact">
+          <div class="section-title-line">
+            <p class="eyebrow">Results</p>
+            <h2>活动列表</h2>
+          </div>
+          <div class="result-tools">
+            <div class="sort-tabs" aria-label="排序">
+              <button class="sort-button active" data-sort="heat" type="button">热度</button>
+              <button class="sort-button" data-sort="time" type="button">时间先后</button>
+            </div>
+            <span class="sort-help" tabindex="0">热度规则
+              <span class="sort-tooltip">热度 = 活动等级 + LHB行业匹配 + 状态时效 + 来源可信度 + 规模信息 + 参会决策层/品牌密度 + 城市价值 + 新增/头部标记。分数相同再按时间先后排列。</span>
+            </span>
+            <span id="resultSummary" class="section-note"></span>
+          </div>
+        </div>
+        <div id="eventList" class="event-list"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="data.js?v=1"></script>
+  <script src="jufair-data.js?v=1"></script>
+  <script src="huodongxing-data.js?v=2"></script>
+  <script src="media-data.js?v=6"></script>
+  <script src="enrichment-data.js?v=1"></script>
+  <script src="shared.js?v=8"></script>
+  <script src="app.js?v=41"></script>
 </body>
 </html>

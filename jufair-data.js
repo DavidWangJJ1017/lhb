@@ -1,0 +1,2987 @@
+window.JUFAIR_ACTIVITIES = [
+  {
+    "id": "evt-026",
+    "title": "上海国际日用百货（春季）博览会",
+    "city": "上海",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "筹备中",
+    "startDate": "2027-03-08",
+    "endDate": "2027-03-10",
+    "dateText": "2027.03.08 - 2027.03.10",
+    "industries": [
+      "商场",
+      "家居家装",
+      "食品饮料"
+    ],
+    "brands": [
+      "百货品牌",
+      "家居百货",
+      "生活方式品牌"
+    ],
+    "host": "展会主办方",
+    "summary": "上海国际日用百货（春季）博览会-上海春季百货展（CCF）将于2027.03.08-03.10在上海新国际博览中心召开。家居百货行业春季第一展,国家级协会权威主办，本届上海春季百货展展览面积100000平米、汇聚1500家行业展商，并将吸…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "品牌引入",
+      "快闪体验",
+      "渠道合作"
+    ],
+    "audience": [
+      "百货品牌",
+      "家居百货",
+      "生活方式品牌",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "百货品牌",
+      "家居百货",
+      "生活方式品牌"
+    ],
+    "scale": "展览面积100000㎡平米、汇聚1500家行业展商，并将吸引超过80000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "品牌引入",
+      "快闪体验",
+      "渠道合作"
+    ],
+    "leadAngle": "围绕品牌引入、快闪体验、渠道合作切入，重点关注百货品牌、家居百货、生活方式品牌的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "上海日用百货（春季）博览官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/7696.html",
+    "sourceLabel": "聚展网：上海国际日用百货（春季）博览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/WmecsmWjRSYiYMmzbGS5WKG7wrQWrfA4.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "上海国际日用百货（春季）博览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-027",
+    "title": "上海电子展-中国电子展",
+    "city": "上海",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "即将开始",
+    "startDate": "2026-11-10",
+    "endDate": "2026-11-12",
+    "dateText": "2026.11.10 - 2026.11.12",
+    "industries": [
+      "3C数码",
+      "智能家居"
+    ],
+    "brands": [
+      "电子品牌",
+      "智能硬件",
+      "消费电子"
+    ],
+    "host": "展会主办方",
+    "summary": "上海电子展-中国电子展-中国电子展（China Electronics Fair）将于2026.11.10-11.12在上海新国际博览中心召开。中国历史最悠久、最权威的电子行业展之一，本届中国电子展展览面积60000平米、汇聚1300家…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "新品测试",
+      "体验设计",
+      "慢闪体验"
+    ],
+    "audience": [
+      "电子品牌",
+      "智能硬件",
+      "消费电子",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "电子品牌",
+      "智能硬件",
+      "消费电子"
+    ],
+    "scale": "展览面积60000㎡平米、汇聚1300家行业展商，并将吸引超过60158名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "新品测试",
+      "体验设计",
+      "慢闪体验"
+    ],
+    "leadAngle": "围绕新品测试、体验设计、慢闪体验切入，重点关注电子品牌、智能硬件、消费电子的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "上海电子展-电子展官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/778.html",
+    "sourceLabel": "聚展网：上海电子展-中国电子展",
+    "image": "https://file.jufair.com/dce535638ae975951dfe3a995998e4e1.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "上海电子展-中国电子展活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-028",
+    "title": "上海国际连锁加盟展览会春季",
+    "city": "上海",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "筹备中",
+    "startDate": "2027-03-30",
+    "endDate": "2027-04-02",
+    "dateText": "2027.03.30 - 2027.04.02",
+    "industries": [
+      "茶饮连锁",
+      "餐厅",
+      "食品饮料"
+    ],
+    "brands": [
+      "连锁餐饮",
+      "茶饮品牌",
+      "加盟品牌"
+    ],
+    "host": "连锁加盟展主办方",
+    "summary": "上海国际连锁加盟展览会春季-SFE上海加盟展（SFE）将于2027.03.30-04.02在上海国家会展中心召开。中国连锁加盟行业历史最悠久、规模最大的专业展会之一，本届SFE上海加盟展展览面积30000平米、汇聚300家行业展商，并将…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "数智化选址",
+      "竞品监测",
+      "招商线索"
+    ],
+    "audience": [
+      "连锁餐饮",
+      "茶饮品牌",
+      "加盟品牌",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "连锁餐饮",
+      "茶饮品牌",
+      "加盟品牌"
+    ],
+    "scale": "展览面积30000㎡平米、汇聚300家行业展商，并将吸引超过70000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "数智化选址",
+      "竞品监测",
+      "招商线索"
+    ],
+    "leadAngle": "围绕数智化选址、竞品监测、招商线索切入，重点关注连锁餐饮、茶饮品牌、加盟品牌的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "上海连锁加盟展览会春季官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/3176.html",
+    "sourceLabel": "聚展网：上海国际连锁加盟展览会春季",
+    "image": "https://file.jufair.com/07950b2d78522ee85cd6bcdb7ecaa9c1.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "上海国际连锁加盟展览会春季活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-029",
+    "title": "上海国际新零售社区社群团购博览会",
+    "city": "上海",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "即将开始",
+    "startDate": "2026-08-24",
+    "endDate": "2026-08-26",
+    "dateText": "2026.08.24 - 2026.08.26",
+    "industries": [
+      "商场",
+      "食品饮料",
+      "便利店"
+    ],
+    "brands": [
+      "新零售品牌",
+      "社区团购",
+      "渠道商"
+    ],
+    "host": "展会主办方",
+    "summary": "上海国际新零售社区社群团购博览会-中国团长大会-上海新零售展（Shanghai Retail Exhibition）将于2026.08.24-08.26在上海世博展览馆召开。本届上海新零售展展览面积50000平米、汇聚1000家行业展商…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "数智化选址",
+      "市场调研",
+      "品牌合作"
+    ],
+    "audience": [
+      "新零售品牌",
+      "社区团购",
+      "渠道商",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "新零售品牌",
+      "社区团购",
+      "渠道商"
+    ],
+    "scale": "展览面积50000㎡平米、汇聚1000家行业展商，并将吸引超过60000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "数智化选址",
+      "市场调研",
+      "品牌合作"
+    ],
+    "leadAngle": "围绕数智化选址、市场调研、品牌合作切入，重点关注新零售品牌、社区团购、渠道商的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "上海新零售社区社群团购博官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/7731.html",
+    "sourceLabel": "聚展网：上海国际新零售社区社群团购博览会-中国团长大会",
+    "image": "https://file.jufair.com/df2f6992df06cc104ca2307e4b23df09.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "上海国际新零售社区社群团购博览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-030",
+    "title": "上海国际服装服饰展览会春季CHIC",
+    "city": "上海",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "筹备中",
+    "startDate": "2027-03-10",
+    "endDate": "2027-03-12",
+    "dateText": "2027.03.10 - 2027.03.12",
+    "industries": [
+      "鞋服",
+      "运动户外",
+      "商场"
+    ],
+    "brands": [
+      "服装品牌",
+      "运动休闲",
+      "设计师品牌"
+    ],
+    "host": "展会主办方",
+    "summary": "上海国际服装服饰展览会春季CHIC-上海服装展（CHIC）将于2027.03.10-03.12在上海国家会展中心召开。亚洲地区最具规模和影响力的服装服饰专业品牌展会，本届上海服装展展览面积117200平米、汇聚905家行业展商，并将吸引…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "慢闪首店",
+      "市场调研",
+      "体验设计"
+    ],
+    "audience": [
+      "服装品牌",
+      "运动休闲",
+      "设计师品牌",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "服装品牌",
+      "运动休闲",
+      "设计师品牌"
+    ],
+    "scale": "展览面积117200㎡平米、汇聚905家行业展商，并将吸引超过240000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "慢闪首店",
+      "市场调研",
+      "体验设计"
+    ],
+    "leadAngle": "围绕慢闪首店、市场调研、体验设计切入，重点关注服装品牌、运动休闲、设计师品牌的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "上海服装服饰展览会春季C官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/1193.html",
+    "sourceLabel": "聚展网：上海国际服装服饰展览会春季CHIC",
+    "image": "https://dcdn-jufair.jufair.com/jufair/BPMJdjEFrmJZXjeC3D86GWCtQbpTQjk3.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "上海国际服装服饰展览会春季CHIC活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-031",
+    "title": "中国国际家具展览会",
+    "city": "上海",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "S",
+    "status": "即将开始",
+    "startDate": "2026-09-08",
+    "endDate": "2026-09-11",
+    "dateText": "2026.09.08 - 2026.09.11",
+    "industries": [
+      "家居家装",
+      "商场",
+      "设计装饰"
+    ],
+    "brands": [
+      "家具品牌",
+      "家居新零售",
+      "设计品牌"
+    ],
+    "host": "行业协会/展会主办方",
+    "summary": "中国国际家具展览会-中国家具展（FURNITURE CHINA）将于2026.09.08-09.11在上海新国际博览中心召开。本届中国家具展展览面积350000平米、汇聚3200家行业展商，并将吸引超过200000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "慢闪体验",
+      "体验设计",
+      "品牌首店"
+    ],
+    "audience": [
+      "家具品牌",
+      "家居新零售",
+      "设计品牌",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "家具品牌",
+      "家居新零售",
+      "设计品牌"
+    ],
+    "scale": "展览面积350000㎡平米、汇聚3200家行业展商，并将吸引超过200000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "慢闪体验",
+      "体验设计",
+      "品牌首店"
+    ],
+    "leadAngle": "围绕慢闪体验、体验设计、品牌首店切入，重点关注家具品牌、家居新零售、设计品牌的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "家具展览会官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/3295.html",
+    "sourceLabel": "聚展网：中国国际家具展览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/JwKrxF53pE75dA5bEwjdYNNiafMWzcTR.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "中国国际家具展览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-032",
+    "title": "中国日用百货商品交易会-上海百货会",
+    "city": "上海",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "即将开始",
+    "startDate": "2026-07-23",
+    "endDate": "2026-07-25",
+    "dateText": "2026.07.23 - 2026.07.25",
+    "industries": [
+      "商场",
+      "家居家装",
+      "食品饮料"
+    ],
+    "brands": [
+      "百货品牌",
+      "生活方式品牌",
+      "渠道商"
+    ],
+    "host": "展会主办方",
+    "summary": "中国日用百货商品交易会-上海百货会-上海百货会（Shanghai Department Store Fair）将于2026.07.23-07.25在上海新国际博览中心召开。亚洲规模最大、历史最悠久的家居用品行业盛会，本届上海百货会展览面…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "品牌引入",
+      "渠道合作",
+      "快闪体验"
+    ],
+    "audience": [
+      "百货品牌",
+      "生活方式品牌",
+      "渠道商",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "百货品牌",
+      "生活方式品牌",
+      "渠道商"
+    ],
+    "scale": "展览面积200000㎡平米、汇聚5000家行业展商，并将吸引超过100000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "品牌引入",
+      "渠道合作",
+      "快闪体验"
+    ],
+    "leadAngle": "围绕品牌引入、渠道合作、快闪体验切入，重点关注百货品牌、生活方式品牌、渠道商的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "日用百货商品交易会-上海官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/3349.html",
+    "sourceLabel": "聚展网：中国日用百货商品交易会-上海百货会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/PTaBiaisSiCW23we4kknQ5EcPKfHhK5S.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "中国日用百货商品交易会-上海百货会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-033",
+    "title": "中国上海连锁加盟展",
+    "city": "上海",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "即将开始",
+    "startDate": "2026-11-10",
+    "endDate": "2026-11-12",
+    "dateText": "2026.11.10 - 2026.11.12",
+    "industries": [
+      "茶饮连锁",
+      "餐厅",
+      "食品饮料"
+    ],
+    "brands": [
+      "连锁加盟品牌",
+      "餐饮品牌",
+      "茶饮品牌"
+    ],
+    "host": "连锁加盟展主办方",
+    "summary": "中国上海连锁加盟展-SFE加盟展（SFE）将于2026.11.10-11.12在上海新国际博览中心召开。本届SFE加盟展展览面积27000平米、汇聚600家行业展商，并将吸引超过80000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "数智化选址",
+      "招商线索",
+      "竞品监测"
+    ],
+    "audience": [
+      "连锁加盟品牌",
+      "餐饮品牌",
+      "茶饮品牌",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "连锁加盟品牌",
+      "餐饮品牌",
+      "茶饮品牌"
+    ],
+    "scale": "展览面积27000㎡平米、汇聚600家行业展商，并将吸引超过80000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "数智化选址",
+      "招商线索",
+      "竞品监测"
+    ],
+    "leadAngle": "围绕数智化选址、招商线索、竞品监测切入，重点关注连锁加盟品牌、餐饮品牌、茶饮品牌的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "上海连锁加盟展官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/3867.html",
+    "sourceLabel": "聚展网：中国上海连锁加盟展",
+    "image": "https://dcdn-jufair.jufair.com/jufair/4AnxCn2fFFH6ktwz33xDeRQ3GfFzACjW.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "中国上海连锁加盟展活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-034",
+    "title": "上海国际流行服饰配饰展览会",
+    "city": "上海",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "筹备中",
+    "startDate": "2027-03-22",
+    "endDate": "2027-03-24",
+    "dateText": "2027.03.22 - 2027.03.24",
+    "industries": [
+      "鞋服",
+      "商场"
+    ],
+    "brands": [
+      "服饰配饰品牌",
+      "时尚品牌",
+      "渠道商"
+    ],
+    "host": "展会主办方",
+    "summary": "上海国际流行服饰配饰展览会-上海服饰展（FAE）将于2027.03.22-03.24在上海世博展览馆召开。本届上海服饰展展览面积50000平米、汇聚800家行业展商，并将吸引超过30000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "慢闪首店",
+      "快闪体验",
+      "市场调研"
+    ],
+    "audience": [
+      "服饰配饰品牌",
+      "时尚品牌",
+      "渠道商",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "服饰配饰品牌",
+      "时尚品牌",
+      "渠道商"
+    ],
+    "scale": "展览面积50000㎡平米、汇聚800家行业展商，并将吸引超过30000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "慢闪首店",
+      "快闪体验",
+      "市场调研"
+    ],
+    "leadAngle": "围绕慢闪首店、快闪体验、市场调研切入，重点关注服饰配饰品牌、时尚品牌、渠道商的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "上海流行服饰配饰展览会官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/9332.html",
+    "sourceLabel": "聚展网：上海国际流行服饰配饰展览会",
+    "image": "https://dcdn-jufair.jufair.com/jufaireRpmBnbmSS27YyyCiMaewtFiBzswrBDf.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "上海国际流行服饰配饰展览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-035",
+    "title": "上海服装定制主题展",
+    "city": "上海",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "历史",
+    "startDate": "2026-05-13",
+    "endDate": "2026-05-15",
+    "dateText": "2026.05.13 - 2026.05.15",
+    "industries": [
+      "鞋服",
+      "商场"
+    ],
+    "brands": [
+      "定制服装",
+      "设计师品牌",
+      "服装供应链"
+    ],
+    "host": "展会主办方",
+    "summary": "上海服装定制主题展-上海服装定制展（LINK FASHION）将于2026.05.13-05.15在上海国家会展中心召开。本届上海服装定制展展览面积130000平米、汇聚2000家行业展商，并将吸引超过150000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "慢闪体验",
+      "调研定位",
+      "品牌合作"
+    ],
+    "audience": [
+      "定制服装",
+      "设计师品牌",
+      "服装供应链",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "定制服装",
+      "设计师品牌",
+      "服装供应链"
+    ],
+    "scale": "展览面积130000㎡平米、汇聚2000家行业展商，并将吸引超过150000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "慢闪体验",
+      "调研定位",
+      "品牌合作"
+    ],
+    "leadAngle": "围绕慢闪体验、调研定位、品牌合作切入，重点关注定制服装、设计师品牌、服装供应链的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "上海服装定制主题展官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/6553.html",
+    "sourceLabel": "聚展网：上海服装定制主题展",
+    "image": "https://dcdn-jufair.jufair.com/jufair/BZYsbYmt8yRWXSeYRfKdjYmT7P6JCNS4.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "上海服装定制主题展活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-036",
+    "title": "世界食品（深圳）博览会",
+    "city": "深圳",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "筹备中",
+    "startDate": "2027-04-26",
+    "endDate": "2027-04-28",
+    "dateText": "2027.04.26 - 2027.04.28",
+    "industries": [
+      "食品饮料",
+      "茶饮连锁",
+      "餐厅"
+    ],
+    "brands": [
+      "食品品牌",
+      "饮品品牌",
+      "渠道商"
+    ],
+    "host": "展会主办方",
+    "summary": "世界食品（深圳）博览会-深圳食品展（Anuga Select China）将于2027.04.26-04.28在深圳福田会展中心召开。全球领先的德国科隆世界食品博览会(Anuga)的中国展，本届深圳食品展展览面积35000平米、汇聚70…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "品牌合作",
+      "渠道合作",
+      "快闪体验"
+    ],
+    "audience": [
+      "食品品牌",
+      "饮品品牌",
+      "渠道商",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "食品品牌",
+      "饮品品牌",
+      "渠道商"
+    ],
+    "scale": "展览面积35000㎡平米、汇聚700家行业展商，并将吸引超过30000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "品牌合作",
+      "渠道合作",
+      "快闪体验"
+    ],
+    "leadAngle": "围绕品牌合作、渠道合作、快闪体验切入，重点关注食品品牌、饮品品牌、渠道商的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "世界食品（深圳）博览会官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/572.html",
+    "sourceLabel": "聚展网：世界食品（深圳）博览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/f28TZWh6NMXm8YadGEiwjXPkMaZGPf28.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "世界食品（深圳）博览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-037",
+    "title": "深圳国际IP授权产业博览会",
+    "city": "深圳",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "S",
+    "status": "即将开始",
+    "startDate": "2026-08-26",
+    "endDate": "2026-08-28",
+    "dateText": "2026.08.26 - 2026.08.28",
+    "industries": [
+      "IP类",
+      "潮玩",
+      "商场"
+    ],
+    "brands": [
+      "IP版权方",
+      "潮玩品牌",
+      "授权服务商"
+    ],
+    "host": "IP/动漫展会主办方",
+    "summary": "深圳国际IP授权产业博览会-深圳IP授权展（CIPE）将于2026.08.26-08.28在深圳国际会展中心（宝安新馆）召开。本届深圳IP授权展展览面积24000平米、汇聚1000家行业展商，并将吸引超过35000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "IP快闪",
+      "商场联名",
+      "主题慢闪"
+    ],
+    "audience": [
+      "IP版权方",
+      "潮玩品牌",
+      "授权服务商",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "IP版权方",
+      "潮玩品牌",
+      "授权服务商"
+    ],
+    "scale": "展览面积24000㎡平米、汇聚1000家行业展商，并将吸引超过35000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "IP快闪",
+      "商场联名",
+      "主题慢闪"
+    ],
+    "leadAngle": "围绕IP快闪、商场联名、主题慢闪切入，重点关注IP版权方、潮玩品牌、授权服务商的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "深圳IP授权产业博览会官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/18758.html",
+    "sourceLabel": "聚展网：深圳国际IP授权产业博览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/WidkMCBctFR24Y3BkaFSztCHRJE5Qj6h.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "深圳国际IP授权产业博览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-038",
+    "title": "深圳国际移动电子、消费电子展秋季",
+    "city": "深圳",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "即将开始",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-23",
+    "dateText": "2026.10.20 - 2026.10.23",
+    "industries": [
+      "3C数码",
+      "智能家居"
+    ],
+    "brands": [
+      "消费电子",
+      "移动电子",
+      "智能硬件"
+    ],
+    "host": "展会主办方",
+    "summary": "深圳国际移动电子、消费电子展秋季-深圳消费电子展（CME）将于2026.10.20-10.23在深圳国际会展中心（宝安新馆）召开。消费电子行业“风向标”，本届深圳消费电子展展览面积60000平米、汇聚1200家行业展商，并将吸引超过60…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "新品测试",
+      "体验设计",
+      "慢闪体验"
+    ],
+    "audience": [
+      "消费电子",
+      "移动电子",
+      "智能硬件",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "消费电子",
+      "移动电子",
+      "智能硬件"
+    ],
+    "scale": "展览面积60000㎡平米、汇聚1200家行业展商，并将吸引超过60000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "新品测试",
+      "体验设计",
+      "慢闪体验"
+    ],
+    "leadAngle": "围绕新品测试、体验设计、慢闪体验切入，重点关注消费电子、移动电子、智能硬件的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "深圳移动电子、消费电子展官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/3849.html",
+    "sourceLabel": "聚展网：深圳国际移动电子、消费电子展秋季",
+    "image": "https://dcdn-jufair.jufair.com/jufair/HXHmZN8zS4RF5eMEWhw6KNinpMdZnt6E.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "深圳国际移动电子、消费电子展秋季活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-039",
+    "title": "深圳童车展-深圳婴童用品展",
+    "city": "深圳",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "历史",
+    "startDate": "2026-04-09",
+    "endDate": "2026-04-11",
+    "dateText": "2026.04.09 - 2026.04.11",
+    "industries": [
+      "母婴",
+      "商场"
+    ],
+    "brands": [
+      "母婴品牌",
+      "婴童用品",
+      "渠道商"
+    ],
+    "host": "展会主办方",
+    "summary": "深圳童车展-深圳婴童用品展-深圳婴童展（baby stroller china）将于2026.04.09-04.11在深圳国际会展中心（宝安新馆）召开。亚洲最具影响力的童车及母婴童用品展会，本届深圳婴童展展览面积130000平米、汇聚1…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "慢闪体验",
+      "市场调研",
+      "品牌合作"
+    ],
+    "audience": [
+      "母婴品牌",
+      "婴童用品",
+      "渠道商",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "母婴品牌",
+      "婴童用品",
+      "渠道商"
+    ],
+    "scale": "展览面积130000㎡平米、汇聚1400家行业展商，并将吸引超过70836名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "慢闪体验",
+      "市场调研",
+      "品牌合作"
+    ],
+    "leadAngle": "围绕慢闪体验、市场调研、品牌合作切入，重点关注母婴品牌、婴童用品、渠道商的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "深圳童车展-深圳婴童用品官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/6244.html",
+    "sourceLabel": "聚展网：深圳童车展-深圳婴童用品展",
+    "image": "https://dcdn-jufair.jufair.com/jufair/zY6eyDKTRwtzNiHybW52aZ6E84WczHAS.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "深圳童车展-深圳婴童用品展活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-040",
+    "title": "深圳国际家纺布艺暨家居装饰展览会春季",
+    "city": "深圳",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "筹备中",
+    "startDate": "2027-03-07",
+    "endDate": "2027-03-10",
+    "dateText": "2027.03.07 - 2027.03.10",
+    "industries": [
+      "家居家装",
+      "设计装饰",
+      "商场"
+    ],
+    "brands": [
+      "家纺品牌",
+      "家居装饰",
+      "软装设计"
+    ],
+    "host": "行业协会/展会主办方",
+    "summary": "深圳国际家纺布艺暨家居装饰展览会春季-深圳家纺展（HOMETEX）将于2027.03.07-03.10在深圳福田会展中心召开。华南地区规模最大、影响力最强的家纺布艺及家居装饰专业展会，本届深圳家纺展展览面积130000平米、汇聚1000…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "体验设计",
+      "慢闪体验",
+      "品牌首店"
+    ],
+    "audience": [
+      "家纺品牌",
+      "家居装饰",
+      "软装设计",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "家纺品牌",
+      "家居装饰",
+      "软装设计"
+    ],
+    "scale": "展览面积130000㎡平米、汇聚1000家行业展商，并将吸引超过120000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "体验设计",
+      "慢闪体验",
+      "品牌首店"
+    ],
+    "leadAngle": "围绕体验设计、慢闪体验、品牌首店切入，重点关注家纺品牌、家居装饰、软装设计的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "深圳家纺布艺暨家居装饰展官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/6334.html",
+    "sourceLabel": "聚展网：深圳国际家纺布艺暨家居装饰展览会春季",
+    "image": "https://file.jufair.com/488c7761e95dc8bcf5929390c06ca150.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "深圳国际家纺布艺暨家居装饰展览会春季活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-041",
+    "title": "深圳电子展",
+    "city": "深圳",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "即将开始",
+    "startDate": "2026-09-09",
+    "endDate": "2026-09-11",
+    "dateText": "2026.09.09 - 2026.09.11",
+    "industries": [
+      "3C数码",
+      "智能家居"
+    ],
+    "brands": [
+      "电子品牌",
+      "智能硬件",
+      "制造服务商"
+    ],
+    "host": "展会主办方",
+    "summary": "深圳国际电子展暨嵌入式展-ELEXCON深圳电子展（ELEXCON）将于2026.09.09-09.11在深圳国际会展中心（宝安新馆）召开。中国重要的专业电子元件和嵌入式技术平台，本届ELEXCON深圳电子展展览面积30000平米、汇聚…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "新品测试",
+      "体验设计",
+      "市场调研"
+    ],
+    "audience": [
+      "电子品牌",
+      "智能硬件",
+      "制造服务商",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "电子品牌",
+      "智能硬件",
+      "制造服务商"
+    ],
+    "scale": "展览面积30000㎡平米、汇聚600家行业展商，并将吸引超过60000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "新品测试",
+      "体验设计",
+      "市场调研"
+    ],
+    "leadAngle": "围绕新品测试、体验设计、市场调研切入，重点关注电子品牌、智能硬件、制造服务商的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "深圳电子展官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/3317.html",
+    "sourceLabel": "聚展网：深圳国际电子展暨嵌入式展",
+    "image": "https://dcdn-jufair.jufair.com/jufair/RKwRnzPrktNs4DtnPWkrxQdae7HGEJSz.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "深圳电子展活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-042",
+    "title": "深圳家具展",
+    "city": "深圳",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "筹备中",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-17",
+    "dateText": "2027.03.15 - 2027.03.17",
+    "industries": [
+      "家居家装",
+      "商场",
+      "设计装饰"
+    ],
+    "brands": [
+      "家具品牌",
+      "家居设计",
+      "渠道商"
+    ],
+    "host": "行业协会/展会主办方",
+    "summary": "深圳国际家具设计周暨深圳国际家具展-深圳家具展（SCW）将于2027.03.15-03.17在深圳福田会展中心召开。中国家具行业最具影响力的设计驱动型展会，本届深圳家具展展览面积160000平米、汇聚1000家行业展商，并将吸引超过12…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "慢闪体验",
+      "体验设计",
+      "品牌首店"
+    ],
+    "audience": [
+      "家具品牌",
+      "家居设计",
+      "渠道商",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "家具品牌",
+      "家居设计",
+      "渠道商"
+    ],
+    "scale": "展览面积160000㎡平米、汇聚1000家行业展商，并将吸引超过120000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "慢闪体验",
+      "体验设计",
+      "品牌首店"
+    ],
+    "leadAngle": "围绕慢闪体验、体验设计、品牌首店切入，重点关注家具品牌、家居设计、渠道商的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "深圳家具展官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/9695.html",
+    "sourceLabel": "聚展网：深圳国际家具设计周暨深圳国际家具展",
+    "image": "https://dcdn-jufair.jufair.com/jufair/SzzD3w7yfHePKBDmsbHB4dFxMznAWY2X.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "深圳家具展活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-043",
+    "title": "深圳茶博会",
+    "city": "深圳",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "即将开始",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-05",
+    "dateText": "2026.07.02 - 2026.07.05",
+    "industries": [
+      "食品饮料",
+      "茶饮连锁"
+    ],
+    "brands": [
+      "茶品牌",
+      "茶饮品牌",
+      "渠道商"
+    ],
+    "host": "展会主办方",
+    "summary": "深圳茶博会-深圳国际春季茶产业展-深圳茶博会（TEAEXPO）将于2026.07.02-07.05在深圳福田会展中心召开。中国春季规模最大、最具影响力的专业茶业盛会，本届深圳茶博会展览面积100000平米、汇聚1400家行业展商，并将吸…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "品牌合作",
+      "渠道合作",
+      "快闪体验"
+    ],
+    "audience": [
+      "茶品牌",
+      "茶饮品牌",
+      "渠道商",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "茶品牌",
+      "茶饮品牌",
+      "渠道商"
+    ],
+    "scale": "展览面积100000㎡平米、汇聚1400家行业展商，并将吸引超过300000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "品牌合作",
+      "渠道合作",
+      "快闪体验"
+    ],
+    "leadAngle": "围绕品牌合作、渠道合作、快闪体验切入，重点关注茶品牌、茶饮品牌、渠道商的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "深圳茶博会官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/9126.html",
+    "sourceLabel": "聚展网：深圳茶博会-深圳国际春季茶产业展",
+    "image": "https://dcdn-jufair.jufair.com/jufairiAjbyJMhDArd2DR66tFjxQPtYNJmpeeQ.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "深圳茶博会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-044",
+    "title": "深圳家居设计周",
+    "city": "深圳",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "S",
+    "status": "筹备中",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-17",
+    "dateText": "2027.03.15 - 2027.03.17",
+    "industries": [
+      "家居家装",
+      "商场",
+      "设计装饰"
+    ],
+    "brands": [
+      "家居品牌",
+      "设计机构",
+      "家居新零售"
+    ],
+    "host": "行业协会/展会主办方",
+    "summary": "深圳家居设计周-深圳家具展SZCW-深圳家具展（SHENZHEN CREATIVE WEEK）将于2027.03.15-03.17在深圳福田会展中心召开。中国最具影响力的设计驱动型家居展会,国内最高品质商业设计的家具展览会，本届深圳家具…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "慢闪体验",
+      "体验设计",
+      "品牌首店"
+    ],
+    "audience": [
+      "家居品牌",
+      "设计机构",
+      "家居新零售",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "家居品牌",
+      "设计机构",
+      "家居新零售"
+    ],
+    "scale": "展览面积320000㎡平米、汇聚1800家行业展商，并将吸引超过120000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "慢闪体验",
+      "体验设计",
+      "品牌首店"
+    ],
+    "leadAngle": "围绕慢闪体验、体验设计、品牌首店切入，重点关注家居品牌、设计机构、家居新零售的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "深圳家居设计周官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/3246.html",
+    "sourceLabel": "聚展网：深圳家居设计周-深圳家具展SZCW",
+    "image": "https://dcdn-jufair.jufair.com/jufair/fGx3BeW46DXp7ZHHdQk44MPxSCABRJXc.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "深圳家居设计周活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-045",
+    "title": "深圳国际人工智能展",
+    "city": "深圳",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "历史",
+    "startDate": "2026-05-14",
+    "endDate": "2026-05-16",
+    "dateText": "2026.05.14 - 2026.05.16",
+    "industries": [
+      "3C数码",
+      "智能家居"
+    ],
+    "brands": [
+      "AI硬件",
+      "机器人",
+      "智能终端"
+    ],
+    "host": "展会主办方",
+    "summary": "深圳国际人工智能展-全球人工智能终端展（GAIE）将于2026.05.14-05.16在深圳福田会展中心召开。粤港澳大湾区人工智能第一展，本届全球人工智能终端展展览面积15000平米、汇聚200家行业展商，并将吸引超过80000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "新品测试",
+      "体验设计",
+      "数智化选址"
+    ],
+    "audience": [
+      "AI硬件",
+      "机器人",
+      "智能终端",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "AI硬件",
+      "机器人",
+      "智能终端"
+    ],
+    "scale": "展览面积15000㎡平米、汇聚200家行业展商，并将吸引超过80000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "新品测试",
+      "体验设计",
+      "数智化选址"
+    ],
+    "leadAngle": "围绕新品测试、体验设计、数智化选址切入，重点关注AI硬件、机器人、智能终端的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "深圳人工智能展官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/7477.html",
+    "sourceLabel": "聚展网：深圳国际人工智能展",
+    "image": "https://dcdn-jufair.jufair.com/jufair/wM4RwafMGN2nWYkNbPEwyxh5hafKBj2x.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "深圳国际人工智能展活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-046",
+    "title": "深圳国际玩具及潮玩展览会",
+    "city": "深圳",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "历史",
+    "startDate": "2026-04-09",
+    "endDate": "2026-04-11",
+    "dateText": "2026.04.09 - 2026.04.11",
+    "industries": [
+      "潮玩",
+      "IP类",
+      "母婴"
+    ],
+    "brands": [
+      "潮玩品牌",
+      "玩具品牌",
+      "IP授权"
+    ],
+    "host": "IP/动漫展会主办方",
+    "summary": "深圳国际玩具及潮玩展览会-深圳玩具展（TOY EDU CHINA）将于2026.04.09-04.11在深圳国际会展中心（宝安新馆）召开。中国最大的礼品及家居用品展览会之一，本届深圳玩具展展览面积130000平米、汇聚1400家行业展商…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "IP快闪",
+      "主题慢闪",
+      "场景策展"
+    ],
+    "audience": [
+      "潮玩品牌",
+      "玩具品牌",
+      "IP授权",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "潮玩品牌",
+      "玩具品牌",
+      "IP授权"
+    ],
+    "scale": "展览面积130000㎡平米、汇聚1400家行业展商，并将吸引超过70836名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "IP快闪",
+      "主题慢闪",
+      "场景策展"
+    ],
+    "leadAngle": "围绕IP快闪、主题慢闪、场景策展切入，重点关注潮玩品牌、玩具品牌、IP授权的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "深圳玩具及潮玩展览会官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/3557.html",
+    "sourceLabel": "聚展网：深圳国际玩具及潮玩展览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/X474YCPJHBHjmce5QCN5N6MXnHz6xXyf.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "深圳国际玩具及潮玩展览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-047",
+    "title": "广州国际建筑电气技术及智能家居展",
+    "city": "广州",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "历史",
+    "startDate": "2026-06-09",
+    "endDate": "2026-06-12",
+    "dateText": "2026.06.09 - 2026.06.12",
+    "industries": [
+      "家居家装",
+      "智能家居",
+      "3C数码"
+    ],
+    "brands": [
+      "智能家居",
+      "照明品牌",
+      "建筑电气"
+    ],
+    "host": "行业协会/展会主办方",
+    "summary": "广州国际建筑电气技术及智能家居展-广州智能家居展（GEBT）将于2026.06.09-06.12在广交会展馆-广州琶洲馆召开。亚洲智能家居和建筑电气技术领域极具影响力的专业展览会，本届广州智能家居展展览面积45000平米、汇聚480家行…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "体验设计",
+      "慢闪体验",
+      "市场调研"
+    ],
+    "audience": [
+      "智能家居",
+      "照明品牌",
+      "建筑电气",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "智能家居",
+      "照明品牌",
+      "建筑电气"
+    ],
+    "scale": "展览面积45000㎡平米、汇聚480家行业展商，并将吸引超过172856名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "体验设计",
+      "慢闪体验",
+      "市场调研"
+    ],
+    "leadAngle": "围绕体验设计、慢闪体验、市场调研切入，重点关注智能家居、照明品牌、建筑电气的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "广州建筑电气技术及智能家官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/3568.html",
+    "sourceLabel": "聚展网：广州国际建筑电气技术及智能家居展",
+    "image": "https://dcdn-jufair.jufair.com/jufair/kX6ZHkkmy5KH8M6TeY3S8QAAMH2MrQw3.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "广州国际建筑电气技术及智能家居展活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-048",
+    "title": "广州国际酒店业及餐饮业博览会",
+    "city": "广州",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "筹备中",
+    "startDate": "2027-05-10",
+    "endDate": "2027-05-12",
+    "dateText": "2027.05.10 - 2027.05.12",
+    "industries": [
+      "餐厅",
+      "食品饮料",
+      "茶饮连锁"
+    ],
+    "brands": [
+      "餐饮品牌",
+      "酒店餐饮",
+      "供应链"
+    ],
+    "host": "展会主办方",
+    "summary": "广州国际酒店业及餐饮业博览会-广州酒店展（HOTELEX）将于2027.05.10-05.12在广交会展馆-广州琶洲馆召开。本届广州酒店展展览面积150000平米、汇聚1500家行业展商，并将吸引超过200000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "数智化选址",
+      "招商线索",
+      "市场调研"
+    ],
+    "audience": [
+      "餐饮品牌",
+      "酒店餐饮",
+      "供应链",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "餐饮品牌",
+      "酒店餐饮",
+      "供应链"
+    ],
+    "scale": "展览面积150000㎡平米、汇聚1500家行业展商，并将吸引超过200000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "数智化选址",
+      "招商线索",
+      "市场调研"
+    ],
+    "leadAngle": "围绕数智化选址、招商线索、市场调研切入，重点关注餐饮品牌、酒店餐饮、供应链的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "广州酒店业及餐饮业博览会官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/7509.html",
+    "sourceLabel": "聚展网：广州国际酒店业及餐饮业博览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/bXJ2jWwxrKcZr7mtW4k4aiGE5RjE3GJM.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "广州国际酒店业及餐饮业博览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-049",
+    "title": "广州消费电子及家电展览会",
+    "city": "广州",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "即将开始",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-17",
+    "dateText": "2026.10.14 - 2026.10.17",
+    "industries": [
+      "3C数码",
+      "家居家装",
+      "智能家居"
+    ],
+    "brands": [
+      "消费电子",
+      "家电品牌",
+      "智能硬件"
+    ],
+    "host": "展会主办方",
+    "summary": "广州消费电子及家电展览会-GSF广州电子展（GSF）将于2026.10.14-10.17在广州保利世贸博览馆召开。由环球资源、保利展览、光合作用三大行业巨头联合主办的专业出口贸易平台，本届GSF广州电子展展览面积30000平米、汇聚60…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "新品测试",
+      "体验设计",
+      "慢闪体验"
+    ],
+    "audience": [
+      "消费电子",
+      "家电品牌",
+      "智能硬件",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "消费电子",
+      "家电品牌",
+      "智能硬件"
+    ],
+    "scale": "展览面积30000㎡平米、汇聚600家行业展商，并将吸引超过30000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "新品测试",
+      "体验设计",
+      "慢闪体验"
+    ],
+    "leadAngle": "围绕新品测试、体验设计、慢闪体验切入，重点关注消费电子、家电品牌、智能硬件的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "广州消费电子及家电展览会官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/10303.html",
+    "sourceLabel": "聚展网：广州消费电子及家电展览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/NEYmbh5YFNSCs582DQ7tdQcj4rAKMpzy.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "广州消费电子及家电展览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-050",
+    "title": "广州国际鞋业订货选品展",
+    "city": "广州",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "即将开始",
+    "startDate": "2026-08-21",
+    "endDate": "2026-08-23",
+    "dateText": "2026.08.21 - 2026.08.23",
+    "industries": [
+      "鞋服",
+      "商场"
+    ],
+    "brands": [
+      "鞋履品牌",
+      "渠道商",
+      "服饰配饰"
+    ],
+    "host": "展会主办方",
+    "summary": "广州国际鞋业订货选品展-广州鞋展（CSE）将于2026.08.21-08.23在广交会展馆-广州琶洲馆召开。本届广州鞋展展览面积30000平米、汇聚600家行业展商，并将吸引超过30000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "慢闪首店",
+      "渠道合作",
+      "市场调研"
+    ],
+    "audience": [
+      "鞋履品牌",
+      "渠道商",
+      "服饰配饰",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "鞋履品牌",
+      "渠道商",
+      "服饰配饰"
+    ],
+    "scale": "展览面积30000㎡平米、汇聚600家行业展商，并将吸引超过30000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "慢闪首店",
+      "渠道合作",
+      "市场调研"
+    ],
+    "leadAngle": "围绕慢闪首店、渠道合作、市场调研切入，重点关注鞋履品牌、渠道商、服饰配饰的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "广州鞋业订货选品展官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/19446.html",
+    "sourceLabel": "聚展网：广州国际鞋业订货选品展",
+    "image": "https://dcdn-jufair.jufair.com/jufair/Q6WtcaKizh32EQKnCPWCPFN7EnzeHzK6.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "广州国际鞋业订货选品展活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-051",
+    "title": "广州世界宠物博览会",
+    "city": "广州",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "即将开始",
+    "startDate": "2026-09-18",
+    "endDate": "2026-09-20",
+    "dateText": "2026.09.18 - 2026.09.20",
+    "industries": [
+      "宠物",
+      "商场"
+    ],
+    "brands": [
+      "宠物食品",
+      "宠物用品",
+      "宠物生活方式"
+    ],
+    "host": "展会主办方",
+    "summary": "广州世界宠物博览会-广州宠物展（GWPF）将于2026.09.18-09.20在广州保利世贸博览馆召开。本届广州宠物展展览面积80000平米、汇聚1400家行业展商，并将吸引超过100000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "社区快闪",
+      "慢闪体验",
+      "场景策展"
+    ],
+    "audience": [
+      "宠物食品",
+      "宠物用品",
+      "宠物生活方式",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "宠物食品",
+      "宠物用品",
+      "宠物生活方式"
+    ],
+    "scale": "展览面积80000㎡平米、汇聚1400家行业展商，并将吸引超过100000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "社区快闪",
+      "慢闪体验",
+      "场景策展"
+    ],
+    "leadAngle": "围绕社区快闪、慢闪体验、场景策展切入，重点关注宠物食品、宠物用品、宠物生活方式的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "广州世界宠物博览会官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/5487.html",
+    "sourceLabel": "聚展网：广州世界宠物博览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/prEHKphY2X6ADR2rCPP6ZdPdhtWD2Rdf.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "广州世界宠物博览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-052",
+    "title": "广州国际户外用品展",
+    "city": "广州",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "即将开始",
+    "startDate": "2026-10-30",
+    "endDate": "2026-11-01",
+    "dateText": "2026.10.30 - 2026.11.01",
+    "industries": [
+      "运动户外",
+      "鞋服"
+    ],
+    "brands": [
+      "户外品牌",
+      "露营装备",
+      "运动生活方式"
+    ],
+    "host": "展会主办方",
+    "summary": "广州国际户外用品展-广州户外展（COSP）将于2026.10.30-11.01在广州保利世贸博览馆召开。亚洲地区颇具影响力的户外行业盛会之一，本届广州户外展展览面积30000平米、汇聚500家行业展商，并将吸引超过60000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "慢闪体验",
+      "新品测试",
+      "体验设计"
+    ],
+    "audience": [
+      "户外品牌",
+      "露营装备",
+      "运动生活方式",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "户外品牌",
+      "露营装备",
+      "运动生活方式"
+    ],
+    "scale": "展览面积30000㎡平米、汇聚500家行业展商，并将吸引超过60000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "慢闪体验",
+      "新品测试",
+      "体验设计"
+    ],
+    "leadAngle": "围绕慢闪体验、新品测试、体验设计切入，重点关注户外品牌、露营装备、运动生活方式的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "广州户外用品展官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/9919.html",
+    "sourceLabel": "聚展网：广州国际户外用品展",
+    "image": "https://dcdn-jufair.jufair.com/jufair/Gk3M24hF6SkykatTC5MFhw77b5Ef5Drw.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "广州国际户外用品展活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-053",
+    "title": "广州动漫游戏展-中国漫画节",
+    "city": "广州",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "S",
+    "status": "即将开始",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-05",
+    "dateText": "2026.10.02 - 2026.10.05",
+    "industries": [
+      "潮玩",
+      "IP类",
+      "游戏/App"
+    ],
+    "brands": [
+      "动漫IP",
+      "游戏厂商",
+      "潮玩品牌"
+    ],
+    "host": "IP/动漫展会主办方",
+    "summary": "广州动漫游戏展-中国漫画节-广州动漫展（CICF X AGF）将于2026.10.02-10.05在广州保利世贸博览馆召开。全国规模最大的综合性动漫游戏盛会，本届广州动漫展展览面积65000平米、汇聚310家行业展商，并将吸引超过301…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "IP快闪",
+      "商场联名",
+      "主题慢闪"
+    ],
+    "audience": [
+      "动漫IP",
+      "游戏厂商",
+      "潮玩品牌",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "动漫IP",
+      "游戏厂商",
+      "潮玩品牌"
+    ],
+    "scale": "展览面积65000㎡平米、汇聚310家行业展商，并将吸引超过301000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "IP快闪",
+      "商场联名",
+      "主题慢闪"
+    ],
+    "leadAngle": "围绕IP快闪、商场联名、主题慢闪切入，重点关注动漫IP、游戏厂商、潮玩品牌的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "广州动漫游戏展-漫画节官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/8764.html",
+    "sourceLabel": "聚展网：广州动漫游戏展-中国漫画节",
+    "image": "https://dcdn-jufair.jufair.com/jufair/E6abe78WJQ72ChnQ4P7kShspEmzhMWDS.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "广州动漫游戏展-中国漫画节活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-054",
+    "title": "中国国际建筑装饰博览会-广州建博会",
+    "city": "广州",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "S",
+    "status": "即将开始",
+    "startDate": "2026-07-08",
+    "endDate": "2026-07-11",
+    "dateText": "2026.07.08 - 2026.07.11",
+    "industries": [
+      "家居家装",
+      "商场",
+      "设计装饰"
+    ],
+    "brands": [
+      "建装品牌",
+      "定制家居",
+      "智能家居"
+    ],
+    "host": "展会主办方",
+    "summary": "中国国际建筑装饰博览会-广州建博会-广州建博会（CBD FAIR）将于2026.07.08-07.11在广交会展馆-广州琶洲馆召开。全球规模最大、最具影响力的建筑装饰展会，本届广州建博会展览面积420000平米、汇聚2200家行业展商，…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "体验设计",
+      "慢闪体验",
+      "品牌首店"
+    ],
+    "audience": [
+      "建装品牌",
+      "定制家居",
+      "智能家居",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "建装品牌",
+      "定制家居",
+      "智能家居"
+    ],
+    "scale": "展览面积420000㎡平米、汇聚2200家行业展商，并将吸引超过255078名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "体验设计",
+      "慢闪体验",
+      "品牌首店"
+    ],
+    "leadAngle": "围绕体验设计、慢闪体验、品牌首店切入，重点关注建装品牌、定制家居、智能家居的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "建筑装饰博览会-广州建博官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/1844.html",
+    "sourceLabel": "聚展网：中国国际建筑装饰博览会-广州建博会",
+    "image": "https://file.jufair.com/25a651bde6fec3adf04e2213e941f51f.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "中国国际建筑装饰博览会-广州建博会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-055",
+    "title": "广州特许连锁加盟展",
+    "city": "广州",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "即将开始",
+    "startDate": "2026-08-14",
+    "endDate": "2026-08-16",
+    "dateText": "2026.08.14 - 2026.08.16",
+    "industries": [
+      "茶饮连锁",
+      "餐厅",
+      "食品饮料"
+    ],
+    "brands": [
+      "连锁餐饮",
+      "茶饮品牌",
+      "加盟品牌"
+    ],
+    "host": "连锁加盟展主办方",
+    "summary": "广州特许连锁加盟展-广州加盟展（GFE）将于2026.08.14-08.16在广交会展馆-广州琶洲馆召开。本届广州加盟展展览面积50000平米、汇聚800家行业展商，并将吸引超过100000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "数智化选址",
+      "招商线索",
+      "竞品监测"
+    ],
+    "audience": [
+      "连锁餐饮",
+      "茶饮品牌",
+      "加盟品牌",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "连锁餐饮",
+      "茶饮品牌",
+      "加盟品牌"
+    ],
+    "scale": "展览面积50000㎡平米、汇聚800家行业展商，并将吸引超过100000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "数智化选址",
+      "招商线索",
+      "竞品监测"
+    ],
+    "leadAngle": "围绕数智化选址、招商线索、竞品监测切入，重点关注连锁餐饮、茶饮品牌、加盟品牌的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "广州特许连锁加盟展官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/5494.html",
+    "sourceLabel": "聚展网：广州特许连锁加盟展",
+    "image": "https://dcdn-jufair.jufair.com/jufair/FpWPSQ7aYSBHei357SiwHwPWc4hiNQWc.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "广州特许连锁加盟展活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-056",
+    "title": "广州零售商业智能设备及商品博览会",
+    "city": "广州",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "历史",
+    "startDate": "2026-04-09",
+    "endDate": "2026-04-11",
+    "dateText": "2026.04.09 - 2026.04.11",
+    "industries": [
+      "商场",
+      "便利店",
+      "3C数码"
+    ],
+    "brands": [
+      "零售设备",
+      "便利店品牌",
+      "商超渠道"
+    ],
+    "host": "展会主办方",
+    "summary": "广州零售商业智能设备及商品博览会-广州零售展（RETAIL EXPO）将于2026.04.09-04.11在广州保利世贸博览馆召开。本届广州零售展展览面积60000平米、汇聚1000家行业展商，并将吸引超过80000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "数智化选址",
+      "数据服务",
+      "市场调研"
+    ],
+    "audience": [
+      "零售设备",
+      "便利店品牌",
+      "商超渠道",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "零售设备",
+      "便利店品牌",
+      "商超渠道"
+    ],
+    "scale": "展览面积60000㎡平米、汇聚1000家行业展商，并将吸引超过80000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "数智化选址",
+      "数据服务",
+      "市场调研"
+    ],
+    "leadAngle": "围绕数智化选址、数据服务、市场调研切入，重点关注零售设备、便利店品牌、商超渠道的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "广州零售商业智能设备及商官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/9202.html",
+    "sourceLabel": "聚展网：广州零售商业智能设备及商品博览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/xnWBffnh45EPmbYswCSbzEFiKn8tPD6y.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "广州零售商业智能设备及商品博览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-057",
+    "title": "广州国际营养品、健康食品及有机产品展览会",
+    "city": "广州",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "筹备中",
+    "startDate": "2027-06-25",
+    "endDate": "2027-06-27",
+    "dateText": "2027.06.25 - 2027.06.27",
+    "industries": [
+      "保健品",
+      "食品饮料"
+    ],
+    "brands": [
+      "健康食品",
+      "营养品品牌",
+      "有机产品"
+    ],
+    "host": "展会主办方",
+    "summary": "广州国际营养品、健康食品及有机产品展览会-广州营养品展（CINHOE）将于2027.06.25-06.27在广交会展馆-广州琶洲馆召开。本届广州营养品展展览面积60000平米、汇聚1203家行业展商，并将吸引超过81507名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "慢闪体验",
+      "市场调研",
+      "品牌合作"
+    ],
+    "audience": [
+      "健康食品",
+      "营养品品牌",
+      "有机产品",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "健康食品",
+      "营养品品牌",
+      "有机产品"
+    ],
+    "scale": "展览面积60000㎡平米、汇聚1203家行业展商，并将吸引超过81507名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "慢闪体验",
+      "市场调研",
+      "品牌合作"
+    ],
+    "leadAngle": "围绕慢闪体验、市场调研、品牌合作切入，重点关注健康食品、营养品品牌、有机产品的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "广州营养品、健康食品及有官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/9954.html",
+    "sourceLabel": "聚展网：广州国际营养品、健康食品及有机产品展览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/DWZTpaZjHRJwTNAiB4nxWTnkfBh3FsBi.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "广州国际营养品、健康食品及有机产品展览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-058",
+    "title": "北京礼品赠品及家庭用品展览会",
+    "city": "北京",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "即将开始",
+    "startDate": "2026-08-13",
+    "endDate": "2026-08-15",
+    "dateText": "2026.08.13 - 2026.08.15",
+    "industries": [
+      "商场",
+      "家居家装",
+      "食品饮料"
+    ],
+    "brands": [
+      "礼品品牌",
+      "家庭用品",
+      "渠道商"
+    ],
+    "host": "展会主办方",
+    "summary": "北京礼品赠品及家庭用品展览会-北京礼品展（GIFTS & HOME）将于2026.08.13-08.15在中国国际展览中心（朝阳馆）召开。北方地区礼品家居旗舰展，本届北京礼品展展览面积44000平米、汇聚1300家行业展商，并将吸引超过…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "品牌引入",
+      "渠道合作",
+      "快闪体验"
+    ],
+    "audience": [
+      "礼品品牌",
+      "家庭用品",
+      "渠道商",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "礼品品牌",
+      "家庭用品",
+      "渠道商"
+    ],
+    "scale": "展览面积44000㎡平米、汇聚1300家行业展商，并将吸引超过45000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "品牌引入",
+      "渠道合作",
+      "快闪体验"
+    ],
+    "leadAngle": "围绕品牌引入、渠道合作、快闪体验切入，重点关注礼品品牌、家庭用品、渠道商的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "北京礼品赠品及家庭用品展官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/3626.html",
+    "sourceLabel": "聚展网：北京礼品赠品及家庭用品展览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/yd3T6AG7p5WfSFKtyMmsaeTnkGb2mJfD.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "北京礼品赠品及家庭用品展览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-059",
+    "title": "北京亚洲消费电子技术展览会CES",
+    "city": "北京",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "筹备中",
+    "startDate": "2027-06-26",
+    "endDate": "2027-06-28",
+    "dateText": "2027.06.26 - 2027.06.28",
+    "industries": [
+      "3C数码",
+      "智能家居"
+    ],
+    "brands": [
+      "消费电子",
+      "智能硬件",
+      "科技品牌"
+    ],
+    "host": "展会主办方",
+    "summary": "北京亚洲消费电子技术展览会CES-北京电子展（CES Asia）将于2027.06.26-06.28在北京亦创国际会展中心召开。亚洲地区规模最大、专业性最强的消费电子行业盛会之一，本届北京电子展展览面积50000平米、汇聚572家行业展…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "新品测试",
+      "体验设计",
+      "慢闪体验"
+    ],
+    "audience": [
+      "消费电子",
+      "智能硬件",
+      "科技品牌",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "消费电子",
+      "智能硬件",
+      "科技品牌"
+    ],
+    "scale": "展览面积50000㎡平米、汇聚572家行业展商，并将吸引超过36000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "新品测试",
+      "体验设计",
+      "慢闪体验"
+    ],
+    "leadAngle": "围绕新品测试、体验设计、慢闪体验切入，重点关注消费电子、智能硬件、科技品牌的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "北京亚洲消费电子技术展览官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/3684.html",
+    "sourceLabel": "聚展网：北京亚洲消费电子技术展览会CES",
+    "image": "https://dcdn-jufair.jufair.com/jufair/paN3T2j6RtXtPz3Da2XWF2kfe3fGsPKE.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "北京亚洲消费电子技术展览会CES活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-060",
+    "title": "北京IP授权生态产业博览会",
+    "city": "北京",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "A",
+    "status": "历史",
+    "startDate": "2026-05-29",
+    "endDate": "2026-05-31",
+    "dateText": "2026.05.29 - 2026.05.31",
+    "industries": [
+      "IP类",
+      "潮玩",
+      "商场"
+    ],
+    "brands": [
+      "IP版权方",
+      "潮玩品牌",
+      "授权服务商"
+    ],
+    "host": "IP/动漫展会主办方",
+    "summary": "北京IP授权生态产业博览会-北京授权展（BIPE）将于2026.05.29-05.31在北京亦创国际会展中心召开。本届北京授权展展览面积30000平米、汇聚1000家行业展商，并将吸引超过30000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "IP快闪",
+      "商场联名",
+      "主题慢闪"
+    ],
+    "audience": [
+      "IP版权方",
+      "潮玩品牌",
+      "授权服务商",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "IP版权方",
+      "潮玩品牌",
+      "授权服务商"
+    ],
+    "scale": "展览面积30000㎡平米、汇聚1000家行业展商，并将吸引超过30000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "IP快闪",
+      "商场联名",
+      "主题慢闪"
+    ],
+    "leadAngle": "围绕IP快闪、商场联名、主题慢闪切入，重点关注IP版权方、潮玩品牌、授权服务商的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "北京IP授权生态产业博览官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/4671.html",
+    "sourceLabel": "聚展网：北京IP授权生态产业博览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/PBtweXA6675QNXnxFD3Yc3a3XAJsdMs3.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "北京IP授权生态产业博览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": true
+  },
+  {
+    "id": "evt-061",
+    "title": "北京定制家居门业展览会",
+    "city": "北京",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "筹备中",
+    "startDate": "2027-02-25",
+    "endDate": "2027-02-27",
+    "dateText": "2027.02.25 - 2027.02.27",
+    "industries": [
+      "家居家装",
+      "商场",
+      "设计装饰"
+    ],
+    "brands": [
+      "定制家居",
+      "门业品牌",
+      "家装渠道"
+    ],
+    "host": "行业协会/展会主办方",
+    "summary": "北京定制家居门业展览会-北京门业展（CIDE）将于2027.02.25-02.27在中国国际展览中心（顺义新馆）召开。中国最大规模、最高品质的门业展览会，本届北京门业展展览面积130000平米、汇聚1200家行业展商，并将吸引超过150…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "慢闪体验",
+      "体验设计",
+      "市场调研"
+    ],
+    "audience": [
+      "定制家居",
+      "门业品牌",
+      "家装渠道",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "定制家居",
+      "门业品牌",
+      "家装渠道"
+    ],
+    "scale": "展览面积130000㎡平米、汇聚1200家行业展商，并将吸引超过150000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "慢闪体验",
+      "体验设计",
+      "市场调研"
+    ],
+    "leadAngle": "围绕慢闪体验、体验设计、市场调研切入，重点关注定制家居、门业品牌、家装渠道的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "北京定制家居门业展览会官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/6852.html",
+    "sourceLabel": "聚展网：北京定制家居门业展览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/TpfC8CdB8eCYR5mD4TyP5fWNPQtAJ6tm.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "北京定制家居门业展览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-062",
+    "title": "中国（北京）国际咖啡展览会",
+    "city": "北京",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "即将开始",
+    "startDate": "2026-08-28",
+    "endDate": "2026-08-30",
+    "dateText": "2026.08.28 - 2026.08.30",
+    "industries": [
+      "食品饮料",
+      "茶饮连锁",
+      "餐厅"
+    ],
+    "brands": [
+      "咖啡品牌",
+      "饮品品牌",
+      "供应链"
+    ],
+    "host": "展会主办方",
+    "summary": "中国（北京）国际咖啡展览会-北京咖啡展（Cafe Show China）将于2026.08.28-08.30在中国国际展览中心（朝阳馆）召开。本届北京咖啡展展览面积30000平米、汇聚360家行业展商，并将吸引超过75000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "快闪体验",
+      "品牌合作",
+      "渠道合作"
+    ],
+    "audience": [
+      "咖啡品牌",
+      "饮品品牌",
+      "供应链",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "咖啡品牌",
+      "饮品品牌",
+      "供应链"
+    ],
+    "scale": "展览面积30000㎡平米、汇聚360家行业展商，并将吸引超过75000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "快闪体验",
+      "品牌合作",
+      "渠道合作"
+    ],
+    "leadAngle": "围绕快闪体验、品牌合作、渠道合作切入，重点关注咖啡品牌、饮品品牌、供应链的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "（北京）咖啡展览会官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/3072.html",
+    "sourceLabel": "聚展网：中国（北京）国际咖啡展览会",
+    "image": "https://file.jufair.com/3bf92eadaf3249d43461f1a18185aa17.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "中国（北京）国际咖啡展览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-063",
+    "title": "北京国际茶业及茶艺展-北京茶博会",
+    "city": "北京",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "历史",
+    "startDate": "2026-04-17",
+    "endDate": "2026-04-20",
+    "dateText": "2026.04.17 - 2026.04.20",
+    "industries": [
+      "食品饮料",
+      "茶饮连锁"
+    ],
+    "brands": [
+      "茶品牌",
+      "茶饮品牌",
+      "渠道商"
+    ],
+    "host": "展会主办方",
+    "summary": "北京国际茶业及茶艺展-北京茶博会-北京茶博会（CITTE）将于2026.04.17-04.20在北京全国农业展览馆召开。本届北京茶博会展览面积26000平米、汇聚498家行业展商，并将吸引超过48011名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "品牌合作",
+      "快闪体验",
+      "渠道合作"
+    ],
+    "audience": [
+      "茶品牌",
+      "茶饮品牌",
+      "渠道商",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "茶品牌",
+      "茶饮品牌",
+      "渠道商"
+    ],
+    "scale": "展览面积26000㎡平米、汇聚498家行业展商，并将吸引超过48011名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "品牌合作",
+      "快闪体验",
+      "渠道合作"
+    ],
+    "leadAngle": "围绕品牌合作、快闪体验、渠道合作切入，重点关注茶品牌、茶饮品牌、渠道商的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "北京茶业及茶艺展-北京茶官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/8110.html",
+    "sourceLabel": "聚展网：北京国际茶业及茶艺展-北京茶博会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/2kNf5rsaBfTM7XcBDtFi4D678Sx6QijZ.jpg?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "北京国际茶业及茶艺展-北京茶博会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-064",
+    "title": "北京秋季宠物用品展-UPET有宠生活展",
+    "city": "北京",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "即将开始",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-18",
+    "dateText": "2026.10.16 - 2026.10.18",
+    "industries": [
+      "宠物",
+      "商场"
+    ],
+    "brands": [
+      "宠物品牌",
+      "宠物用品",
+      "生活方式品牌"
+    ],
+    "host": "展会主办方",
+    "summary": "北京秋季宠物用品展-UPET有宠生活展-北京秋季宠物展（Pet Fair Beijing）将于2026.10.16-10.18在中国国际展览中心（朝阳馆）召开。聚焦宠物“衣食住行康”全产业链，涵盖宠物食品、用品、医疗、服饰、繁育等多个领…",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "社区快闪",
+      "慢闪体验",
+      "场景策展"
+    ],
+    "audience": [
+      "宠物品牌",
+      "宠物用品",
+      "生活方式品牌",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "宠物品牌",
+      "宠物用品",
+      "生活方式品牌"
+    ],
+    "scale": "展览面积15000㎡平米、汇聚320家行业展商，并将吸引超过40000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "社区快闪",
+      "慢闪体验",
+      "场景策展"
+    ],
+    "leadAngle": "围绕社区快闪、慢闪体验、场景策展切入，重点关注宠物品牌、宠物用品、生活方式品牌的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "北京秋季宠物用品展-UP官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/5522.html",
+    "sourceLabel": "聚展网：北京秋季宠物用品展-UPET有宠生活展",
+    "image": "https://dcdn-jufair.jufair.com/jufair/AkAT877KaCBbT4we6AXeyCZBcbQTQdN7.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "北京秋季宠物用品展-UPET有宠生活展活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  },
+  {
+    "id": "evt-065",
+    "title": "北京国际餐饮业博览会",
+    "city": "北京",
+    "venue": "聚展网详情页显示场馆，待人工复核",
+    "type": "展会",
+    "rank": "B",
+    "status": "筹备中",
+    "startDate": "2027-03-11",
+    "endDate": "2027-03-13",
+    "dateText": "2027.03.11 - 2027.03.13",
+    "industries": [
+      "餐厅",
+      "茶饮连锁",
+      "食品饮料"
+    ],
+    "brands": [
+      "餐饮品牌",
+      "加盟品牌",
+      "供应链"
+    ],
+    "host": "展会主办方",
+    "summary": "北京国际餐饮业博览会-北京餐饮展（QMFE）将于2027.03.11-03.13在北京首都国际会展中心召开。本届北京餐饮展展览面积100000平米、汇聚3000家行业展商，并将吸引超过120000名观众到场",
+    "highlights": [
+      "聚展网抓取",
+      "重点城市活动",
+      "与LHB目标行业匹配"
+    ],
+    "fitProducts": [
+      "数智化选址",
+      "招商线索",
+      "竞品监测"
+    ],
+    "audience": [
+      "餐饮品牌",
+      "加盟品牌",
+      "供应链",
+      "渠道商",
+      "品牌市场负责人"
+    ],
+    "attendeeRoles": [
+      "品牌负责人",
+      "市场负责人",
+      "渠道负责人",
+      "采购负责人"
+    ],
+    "representativeBrands": [
+      "餐饮品牌",
+      "加盟品牌",
+      "供应链"
+    ],
+    "scale": "展览面积100000㎡平米、汇聚3000家行业展商，并将吸引超过120000名观众到场",
+    "ticketInfo": "聚展网提供门票/会刊信息，具体价格以详情页为准",
+    "participation": "建议先收集展商/会刊，再筛目标品牌做会前预约拜访",
+    "buSuggestion": [
+      "数智化选址",
+      "招商线索",
+      "竞品监测"
+    ],
+    "leadAngle": "围绕数智化选址、招商线索、竞品监测切入，重点关注餐饮品牌、加盟品牌、供应链的线下体验、拓店验证或场景合作需求。",
+    "mediaAccounts": [
+      "北京餐饮业博览会官方号",
+      "聚展网",
+      "相关行业公众号"
+    ],
+    "sourceType": "聚展网",
+    "sourceConfidence": "高",
+    "source": "https://www.jufair.com/exhibition/16161.html",
+    "sourceLabel": "聚展网：北京国际餐饮业博览会",
+    "image": "https://dcdn-jufair.jufair.com/jufair/wBC4DtsHY4jx6cnMmtpA3A8xM6GsiJMw.png?x-oss-process=image/resize,w_564,h_334/format,webp/quality,q_70",
+    "imageAlt": "北京国际餐饮业博览会活动图",
+    "updatedAt": "2026-06-27",
+    "isNew": true,
+    "isHeadline": false
+  }
+];
