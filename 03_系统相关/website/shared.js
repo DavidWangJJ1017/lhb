@@ -26,7 +26,7 @@ const prioritySort = (values, priority) => [
   ...values.filter((item) => !priority.includes(item)).sort()
 ];
 const formatDate = (date) => date.replaceAll("-", ".");
-const todayValue = 20260628;
+const todayValue = 20260708;
 const upcomingWindowDays = 45;
 const dateValue = (date) => date ? Number(date.replaceAll("-", "")) : null;
 const dateFromValue = (value) => {
@@ -906,6 +906,7 @@ activities.push(...supplementalActivities);
 activities.push(...(window.JUFAIR_ACTIVITIES || []));
 activities.push(...(window.HUODONGXING_ACTIVITIES || []));
 activities.push(...(window.MEDIA_ACTIVITIES || []));
+activities.push(...(window.FRESH_ACTIVITIES || []));
 activities.forEach(applyActivityDefaults);
 
 const activityEnrichments = window.ACTIVITY_ENRICHMENTS || {};
