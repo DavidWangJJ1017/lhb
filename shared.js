@@ -902,11 +902,22 @@ const supplementalActivities = [
   }
 ];
 
-activities.push(...supplementalActivities);
-activities.push(...(window.JUFAIR_ACTIVITIES || []));
-activities.push(...(window.HUODONGXING_ACTIVITIES || []));
-activities.push(...(window.MEDIA_ACTIVITIES || []));
-activities.push(...(window.FRESH_ACTIVITIES || []));
+function pushUniqueActivities(items) {
+  const existingIds = new Set(activities.map((activity) => activity.id));
+  (items || []).forEach((activity) => {
+    if (!existingIds.has(activity.id)) {
+      activities.push(activity);
+      existingIds.add(activity.id);
+    }
+  });
+}
+
+pushUniqueActivities(window.LHB_EVENTS);
+pushUniqueActivities(supplementalActivities);
+pushUniqueActivities(window.JUFAIR_ACTIVITIES);
+pushUniqueActivities(window.HUODONGXING_ACTIVITIES);
+pushUniqueActivities(window.MEDIA_ACTIVITIES);
+pushUniqueActivities(window.FRESH_ACTIVITIES);
 activities.forEach(applyActivityDefaults);
 
 const activityEnrichments = window.ACTIVITY_ENRICHMENTS || {};
